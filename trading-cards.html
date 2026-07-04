@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trading Cards - For Sale</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { padding: 12px 8px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+        tr:hover { background-color: #f8fafc; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="max-w-7xl mx-auto p-6">
+        <h1 class="text-4xl font-bold mb-2">Trading Cards For Sale</h1>
+        <p class="text-gray-600 mb-8">Filter &amp; sort your inventory</p>
+
+        <div class="bg-white p-6 rounded-2xl shadow mb-8 grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div>
+                <label class="block text-sm font-medium mb-2">Player</label>
+                <select id="playerFilter" class="w-full border rounded-xl px-4 py-3">
+                    <option value="">All Players</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium mb-2">Min Price ($)</label>
+                <input type="number" id="minPrice" value="0" class="w-full border rounded-xl px-4 py-3">
+            </div>
+            <div>
+                <label class="block text-sm font-medium mb-2">Max Price ($)</label>
+                <input type="number" id="maxPrice" class="w-full border rounded-xl px-4 py-3">
+            </div>
+            <div>
+                <label class="block text-sm font-medium mb-2">Sort By</label>
+                <select id="sortSelect" class="w-full border rounded-xl px-4 py-3">
+                    <option value="price-desc">Price High to Low</option>
+                    <option value="price-asc">Price Low to High</option>
+                    <option value="player-asc">Player A-Z</option>
+                    <option value="set-asc">Set A-Z</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow overflow-hidden">
+            <table>
+                <thead class="bg-gray-100">
+                    <tr>
+                        <th class="text-left">Player</th>
+                        <th class="text-left">Set</th>
+                        <th class="text-left">Variant</th>
+                        <th class="text-right">Value ($)</th>
+                        <th class="text-left">Card #</th>
+                        <th class="text-left">Product Name</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        let cards = [];
+
+        async function loadData() {
+            try {
+                const response = await fetch('cards_data.json');
+                cards = await response.json();
+                renderTable(cards);
+                populatePlayerFilter();
+            } catch (e) {
+                console.error(e);
+                alert("Could not load cards_data.json");
+            }
+        }
+
+        function populatePlayerFilter() {
+            const select = document.getElementById('playerFilter');
+            const players = [...new Set(cards.map(c => c.Player))].sort();
+            players.forEach(p => {
+                const opt = document.createElement('option');
+                opt.value = p;
+                opt.textContent = p;
+                select.appendChild(opt);
+            });
+        }
+
+        function filterAndSort() {
+            const player = document.getElementById('playerFilter').value;
+            const minP = parseFloat(document.getElementById('minPrice').value) || 0;
+            const maxP = parseFloat(document.getElementById('maxPrice').value) || Infinity;
+            const sortMode = document.getElementById('sortSelect').value;
+
+            let filtered = cards.filter(c => {
+                const price = parseFloat(c.Value) || 0;
+                return (!player || c.Player === player) && price >= minP && price <= maxP;
+            });
+
+            // Sorting
+            if (sortMode === 'price-desc') {
+                filtered.sort((a, b) => parseFloat(b.Value) - parseFloat(a.Value));
+            } else if (sortMode === 'price-asc') {
+                filtered.sort((a, b) => parseFloat(a.Value) - parseFloat(b.Value));
+            } else if (sortMode === 'player-asc') {
+                filtered.sort((a, b) => a.Player.localeCompare(b.Player));
+            } else if (sortMode === 'set-asc') {
+                filtered.sort((a, b) => (a.Set || '').localeCompare(b.Set || ''));
+            }
+
+            renderTable(filtered);
+        }
+
+        function renderTable(data) {
+            const tbody = document.getElementById('tableBody');
+            tbody.innerHTML = '';
+            data.forEach(card => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td class="font-medium">${card.Player}</td>
+                    <td>${card.Set}</td>
+                    <td>${card.Variant || '-'}</td>
+                    <td class="text-right font-semibold text-green-600">$${parseFloat(card.Value).toFixed(2)}</td>
+                    <td>${card['Card Number'] || '-'}</td>
+                    <td class="text-sm text-gray-600">${card['Product Name'] || ''}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Event listeners
+        document.getElementById('playerFilter').addEventListener('change', filterAndSort);
+        document.getElementById('minPrice').addEventListener('input', filterAndSort);
+        document.getElementById('maxPrice').addEventListener('input', filterAndSort);
+        document.getElementById('sortSelect').addEventListener('change', filterAndSort);
+
+        loadData();
+    </script>
+</body>
+</html>
