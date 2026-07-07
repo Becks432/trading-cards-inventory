@@ -1,5 +1,761 @@
 [
   {
+    "Player": "De'Aaron Fox",
+    "Set": "2019 Panini Hoops Premium Stock Lights Camera Action",
+    "Variant": "-",
+    "Value": 1.88,
+    "Card Number": "3",
+    "product-name": "De'Aaron Fox #3",
+    "Item #": 105,
+    "id": 7094582,
+    "Status": "Sold",
+    "Sale Price": 1.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2025 Topps Match Attax Hot Prospects",
+    "Variant": "-",
+    "Value": 7.0,
+    "Card Number": "HP-VW",
+    "product-name": "Victor Wembanyama #HP-VW",
+    "Item #": 103,
+    "id": 11909415,
+    "Status": "Sold",
+    "Sale Price": 2.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2025 Topps Match Attax Hot Prospects",
+    "Variant": "-",
+    "Value": 7.0,
+    "Card Number": "HP-VW",
+    "product-name": "Victor Wembanyama #HP-VW",
+    "Item #": 100,
+    "id": 11909415,
+    "Status": "Sold",
+    "Sale Price": 2.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2025 Topps Match Attax Breakthrough Baller",
+    "Variant": "-",
+    "Value": 6.0,
+    "Card Number": "BB-VW",
+    "product-name": "Victor Wembanyama #BB-VW",
+    "Item #": 101,
+    "id": 11830213,
+    "Status": "Sold",
+    "Sale Price": 2.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2023 Panini Instant",
+    "Variant": "-",
+    "Value": 16.72,
+    "Card Number": "331",
+    "product-name": "Victor Wembanyama #331",
+    "Item #": 104,
+    "id": 6857907,
+    "Status": "Sold",
+    "Sale Price": 13.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2023 Panini Prizm Global Reach",
+    "Variant": "Silver",
+    "Value": 21.62,
+    "Card Number": "2",
+    "product-name": "Victor Wembanyama [Silver] #2",
+    "Item #": 102,
+    "id": 6422089,
+    "Status": "Sold",
+    "Sale Price": 10.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2023 Panini Hoops",
+    "Variant": "-",
+    "Value": 6.47,
+    "Card Number": "298",
+    "product-name": "Victor Wembanyama #298",
+    "Item #": 108,
+    "id": 6059255,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2023 Panini Hoops",
+    "Variant": "-",
+    "Value": 6.96,
+    "Card Number": "277",
+    "product-name": "Victor Wembanyama #277",
+    "Item #": 107,
+    "id": 6059234,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1996 Collector's Choice Jordan Cut Above",
+    "Variant": "-",
+    "Value": 3.19,
+    "Card Number": "CA1",
+    "product-name": "Michael Jordan #CA1",
+    "Item #": 56,
+    "id": 2755758,
+    "Status": "Sold",
+    "Sale Price": 1.0
+  },
+  {
+    "Player": "Shai Gilgeous-Alexander",
+    "Set": "2018 Panini Prizm",
+    "Variant": "Rookie",
+    "Value": 50.0,
+    "Card Number": "184 [Rookie]",
+    "product-name": "Shai Gilgeous-Alexander #184 [Rookie]",
+    "Item #": 45837587,
+    "id": 113596,
+    "Status": "Sold",
+    "Sale Price": 42.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1996 Fleer Metal",
+    "Variant": "-",
+    "Value": 30.73,
+    "Card Number": "241",
+    "product-name": "Michael Jordan #241",
+    "Item #": 88,
+    "id": 85449,
+    "Status": "Sold",
+    "Sale Price": 23.0
+  },
+  {
+    "Player": "Kobe Bryant",
+    "Set": "1996 Upper Deck",
+    "Variant": "-",
+    "Value": 24.46,
+    "Card Number": "58",
+    "product-name": "Kobe Bryant #58",
+    "Item #": 89,
+    "id": 87381,
+    "Status": "Sold",
+    "Sale Price": 23.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1996 Fleer Metal",
+    "Variant": "-",
+    "Value": 42.76,
+    "Card Number": "11",
+    "product-name": "Michael Jordan #11",
+    "Item #": 97,
+    "id": 85372,
+    "Status": "Sold",
+    "Sale Price": 39.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1996 Fleer Metal",
+    "Variant": "-",
+    "Value": 42.76,
+    "Card Number": "11",
+    "product-name": "Michael Jordan #11",
+    "Item #": 87,
+    "id": 85372,
+    "Status": "Sold",
+    "Sale Price": 39.0
+  },
+  {
+    "Player": "Kobe Bryant",
+    "Set": "1996 Fleer Metal",
+    "Variant": "-",
+    "Value": 35.0,
+    "Card Number": "137",
+    "product-name": "Kobe Bryant #137",
+    "Item #": 85,
+    "id": 85401,
+    "Status": "Sold",
+    "Sale Price": 23.0
+  },
+  {
+    "Player": "Kobe Bryant",
+    "Set": "1996 Fleer Metal",
+    "Variant": "-",
+    "Value": 35.0,
+    "Card Number": "137",
+    "product-name": "Kobe Bryant #137",
+    "Item #": 94,
+    "id": 85401,
+    "Status": "Sold",
+    "Sale Price": 23.0
+  },
+  {
+    "Player": "Kobe Bryant",
+    "Set": "1996 Fleer Metal",
+    "Variant": "-",
+    "Value": 35.0,
+    "Card Number": "137",
+    "product-name": "Kobe Bryant #137",
+    "Item #": 95,
+    "id": 85401,
+    "Status": "Sold",
+    "Sale Price": 23.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1997 Metal Universe",
+    "Variant": "-",
+    "Value": 301.69,
+    "Card Number": "23",
+    "product-name": "Michael Jordan #23",
+    "Item #": 81,
+    "id": 89006,
+    "Status": "Sold",
+    "Sale Price": 173.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1997 Metal Universe",
+    "Variant": "-",
+    "Value": 301.69,
+    "Card Number": "23",
+    "product-name": "Michael Jordan #23",
+    "Item #": 96,
+    "id": 89006,
+    "Status": "Sold",
+    "Sale Price": 173.0
+  },
+  {
+    "Player": "Kobe Bryant",
+    "Set": "1996 Collector's Choice Lakers Team Set",
+    "Variant": "-",
+    "Value": 19.12,
+    "Card Number": "LA2",
+    "product-name": "Kobe Bryant #LA2",
+    "Item #": 93,
+    "id": 84113,
+    "Status": "Sold",
+    "Sale Price": 15.0
+  },
+  {
+    "Player": "Jerry Stackhouse",
+    "Set": "1996 Metal Molten Metal",
+    "Variant": "-",
+    "Value": 46.0,
+    "Card Number": "9",
+    "product-name": "Jerry Stackhouse #9",
+    "Item #": 99,
+    "id": 7148998,
+    "Status": "Sold",
+    "Sale Price": 39.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1996 Fleer Metal",
+    "Variant": "-",
+    "Value": 25.0,
+    "Card Number": "128",
+    "product-name": "Michael Jordan #128",
+    "Item #": 82,
+    "id": 85396,
+    "Status": "Sold",
+    "Sale Price": 15.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1996 Fleer Metal",
+    "Variant": "-",
+    "Value": 25.0,
+    "Card Number": "128",
+    "product-name": "Michael Jordan #128",
+    "Item #": 86,
+    "id": 85396,
+    "Status": "Sold",
+    "Sale Price": 15.0
+  },
+  {
+    "Player": "Shaquille O'Neal",
+    "Set": "1996 Metal Steel Slammin'",
+    "Variant": "-",
+    "Value": 40.0,
+    "Card Number": "8",
+    "product-name": "Shaquille O'Neal #8",
+    "Item #": 91,
+    "id": 4732090,
+    "Status": "Sold",
+    "Sale Price": 31.0
+  },
+  {
+    "Player": "Luka Doncic",
+    "Set": "2018 Panini Donruss Optic",
+    "Variant": "-",
+    "Value": 57.27,
+    "Card Number": "177",
+    "product-name": "Luka Doncic #177",
+    "Item #": 45718822,
+    "id": 108730,
+    "Status": "Sold",
+    "Sale Price": 31.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1995 Metal",
+    "Variant": "-",
+    "Value": 28.9,
+    "Card Number": "212",
+    "product-name": "Michael Jordan #212",
+    "Item #": 92,
+    "id": 83402,
+    "Status": "Sold",
+    "Sale Price": 23.0
+  },
+  {
+    "Player": "Luka Doncic",
+    "Set": "2018 Panini Donruss Optic",
+    "Variant": "-",
+    "Value": 44.5,
+    "Card Number": "177",
+    "product-name": "Luka Doncic #177",
+    "Item #": 98,
+    "id": 108730,
+    "Status": "Sold",
+    "Sale Price": 39.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "Double",
+    "Value": 16.06,
+    "Card Number": "6",
+    "product-name": "Michael Jordan [Double] #6",
+    "Item #": 84,
+    "id": 93958,
+    "Status": "Sold",
+    "Sale Price": 15.0
+  },
+  {
+    "Player": "Reggie Miller",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "Triple",
+    "Value": 11.5,
+    "Card Number": "42",
+    "product-name": "Reggie Miller [Triple] #42",
+    "Item #": 80,
+    "id": 94017,
+    "Status": "Sold",
+    "Sale Price": 16.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2024 Panini Select",
+    "Variant": "Orange Cracked Ice Prizm",
+    "Value": 42.54,
+    "Card Number": "9",
+    "product-name": "Victor Wembanyama [Orange Cracked Ice Prizm] #9",
+    "Item #": 83,
+    "id": 9778816,
+    "Status": "Sold",
+    "Sale Price": 50.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2026 Topps Collectors Kit",
+    "Variant": "Wave",
+    "Value": 9.49,
+    "Card Number": "NBA-7",
+    "product-name": "Victor Wembanyama [Wave] #NBA-7",
+    "Item #": 90,
+    "id": 12415755,
+    "Status": "Sold",
+    "Sale Price": 15.0
+  },
+  {
+    "Player": "Cooper Flagg",
+    "Set": "2025 Bowman",
+    "Variant": "-",
+    "Value": 3.7,
+    "Card Number": "1",
+    "product-name": "Cooper Flagg #1",
+    "Item #": 79,
+    "id": 12613839,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Kobe Bryant",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 9.81,
+    "Card Number": "46",
+    "product-name": "Kobe Bryant #46",
+    "Item #": 106,
+    "id": 94023,
+    "Status": "Sold",
+    "Sale Price": 12.0
+  },
+  {
+    "Player": "Kobe Bryant",
+    "Set": "2003 SP Authentic",
+    "Variant": "-",
+    "Value": 5.2,
+    "Card Number": "35",
+    "product-name": "Kobe Bryant #35",
+    "Item #": 66,
+    "id": 145531,
+    "Status": "Sold",
+    "Sale Price": 12.0
+  },
+  {
+    "Player": "Cooper Flagg",
+    "Set": "2025 Topps Match Attax Breakthrough Baller",
+    "Variant": "-",
+    "Value": 10.99,
+    "Card Number": "BB-CF",
+    "product-name": "Cooper Flagg #BB-CF",
+    "Item #": 67,
+    "id": 11830197,
+    "Status": "Sold",
+    "Sale Price": 8.0
+  },
+  {
+    "Player": "Cooper Flagg",
+    "Set": "2025 Topps Match Attax Breakthrough Baller",
+    "Variant": "-",
+    "Value": 10.99,
+    "Card Number": "BB-CF",
+    "product-name": "Cooper Flagg #BB-CF",
+    "Item #": 68,
+    "id": 11830197,
+    "Status": "Sold",
+    "Sale Price": 8.0
+  },
+  {
+    "Player": "Building a Winner",
+    "Set": "1996 Upper Deck",
+    "Variant": "-",
+    "Value": 3.32,
+    "Card Number": "148",
+    "product-name": "Building a Winner #148",
+    "Item #": 60,
+    "id": 87406,
+    "Status": "Sold",
+    "Sale Price": 4.0
+  },
+  {
+    "Player": "Building a Winner",
+    "Set": "1996 Upper Deck",
+    "Variant": "-",
+    "Value": 3.32,
+    "Card Number": "148",
+    "product-name": "Building a Winner #148",
+    "Item #": 63,
+    "id": 87406,
+    "Status": "Sold",
+    "Sale Price": 4.0
+  },
+  {
+    "Player": "Building a Winner",
+    "Set": "1996 Upper Deck",
+    "Variant": "-",
+    "Value": 3.32,
+    "Card Number": "148",
+    "product-name": "Building a Winner #148",
+    "Item #": 77,
+    "id": 87406,
+    "Status": "Sold",
+    "Sale Price": 4.0
+  },
+  {
+    "Player": "LeBron James",
+    "Set": "2025 Topps",
+    "Variant": "Holo Foil",
+    "Value": 3.25,
+    "Card Number": "150",
+    "product-name": "LeBron James [Holo Foil] #150",
+    "Item #": 55,
+    "id": 10826665,
+    "Status": "Sold",
+    "Sale Price": 2.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 11.29,
+    "Card Number": "11",
+    "product-name": "Michael Jordan #11",
+    "Item #": 54,
+    "id": 93981,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 7.97,
+    "Card Number": "13",
+    "product-name": "Michael Jordan #13",
+    "Item #": 53,
+    "id": 93989,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 7.43,
+    "Card Number": "12",
+    "product-name": "Michael Jordan #12",
+    "Item #": 74,
+    "id": 93985,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 6.5,
+    "Card Number": "7",
+    "product-name": "Michael Jordan #7",
+    "Item #": 78,
+    "id": 93964,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 6.34,
+    "Card Number": "4",
+    "product-name": "Michael Jordan #4",
+    "Item #": 70,
+    "id": 93952,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 6.0,
+    "Card Number": "8",
+    "product-name": "Michael Jordan #8",
+    "Item #": 65,
+    "id": 93968,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 5.68,
+    "Card Number": "9",
+    "product-name": "Michael Jordan #9",
+    "Item #": 69,
+    "id": 93972,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 5.5,
+    "Card Number": "10",
+    "product-name": "Michael Jordan #10",
+    "Item #": 61,
+    "id": 5134024,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 5.48,
+    "Card Number": "5",
+    "product-name": "Michael Jordan #5",
+    "Item #": 57,
+    "id": 93956,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 5.2,
+    "Card Number": "6",
+    "product-name": "Michael Jordan #6",
+    "Item #": 59,
+    "id": 93960,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 5.0,
+    "Card Number": "3",
+    "product-name": "Michael Jordan #3",
+    "Item #": 71,
+    "id": 93948,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1998 Upper Deck Black Diamond",
+    "Variant": "-",
+    "Value": 5.0,
+    "Card Number": "3",
+    "product-name": "Michael Jordan #3",
+    "Item #": 75,
+    "id": 93948,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Shaquille O'Neal",
+    "Set": "1998 Upper Deck Ovation Superstars of the Court",
+    "Variant": "-",
+    "Value": 2.14,
+    "Card Number": "C16",
+    "product-name": "Shaquille O'Neal #C16",
+    "Item #": 64,
+    "id": 5885939,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1997 Upper Deck Jordan Air Time",
+    "Variant": "-",
+    "Value": 3.0,
+    "Card Number": "AT2",
+    "product-name": "Michael Jordan #AT2",
+    "Item #": 62,
+    "id": 2263350,
+    "Status": "Sold",
+    "Sale Price": 12.0
+  },
+  {
+    "Player": "Building a Winner",
+    "Set": "1996 Upper Deck",
+    "Variant": "-",
+    "Value": 3.99,
+    "Card Number": "139",
+    "product-name": "Building a Winner #139",
+    "Item #": 76,
+    "id": 87401,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Michael Jordan",
+    "Set": "1996 Skybox Premium",
+    "Variant": "-",
+    "Value": 4.99,
+    "Card Number": "247",
+    "product-name": "Michael Jordan #247",
+    "Item #": 72,
+    "id": 85723,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Kobe Bryant",
+    "Set": "1999 Upper Deck Hardcourt",
+    "Variant": "-",
+    "Value": 8.77,
+    "Card Number": "26",
+    "product-name": "Kobe Bryant #26",
+    "Item #": 73,
+    "id": 8800692,
+    "Status": "Sold",
+    "Sale Price": 5.0
+  },
+  {
+    "Player": "Shai Gilgeous-Alexander",
+    "Set": "2025 Topps Match Attax Scoring Hero",
+    "Variant": "-",
+    "Value": 2.02,
+    "Card Number": "SH-SG",
+    "product-name": "Shai Gilgeous-Alexander #SH-SG",
+    "Item #": 58,
+    "id": 11909462,
+    "Status": "Sold",
+    "Sale Price": 4.0
+  },
+  {
+    "Player": "Cooper Flagg",
+    "Set": "2025 Topps Chrome",
+    "Variant": "-",
+    "Value": 20.85,
+    "Card Number": "251",
+    "product-name": "Cooper Flagg #251",
+    "Item #": 51,
+    "id": 11484449,
+    "Status": "Sold",
+    "Sale Price": 20.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2025 Topps Match Attax Hot Prospects",
+    "Variant": "-",
+    "Value": 7.0,
+    "Card Number": "HP-VW",
+    "product-name": "Victor Wembanyama #HP-VW",
+    "Item #": 52,
+    "id": 11909415,
+    "Status": "Sold",
+    "Sale Price": 10.0
+  },
+  {
+    "Player": "Victor Wembanyama",
+    "Set": "2025 Topps Match Attax Hot Prospects",
+    "Variant": "-",
+    "Value": 7.0,
+    "Card Number": "HP-VW",
+    "product-name": "Victor Wembanyama #HP-VW",
+    "Item #": 39,
+    "id": 11909415,
+    "Status": "Sold",
+    "Sale Price": 0.0
+  },
+  {
+    "Player": "Cooper Flagg",
+    "Set": "2025 Topps Chrome",
+    "Variant": "-",
+    "Value": 20.85,
+    "Card Number": "251",
+    "product-name": "Cooper Flagg #251",
+    "Item #": 15,
+    "id": 11484449,
+    "Status": "Sold",
+    "Sale Price": 0.0
+  },
+  {
+    "Player": "Luka Doncic",
+    "Set": "2024 Panini Donruss",
+    "Variant": "-",
+    "Value": 1.4,
+    "Card Number": "82",
+    "product-name": "Luka Doncic #82",
+    "Item #": 415,
+    "id": 8771795,
+    "Status": "Sold",
+    "Sale Price": 0.0
+  },
+  {
     "Player": "Cooper Flagg",
     "Set": "2025 Topps Chrome",
     "Variant": "-",
@@ -7,7 +763,9 @@
     "Card Number": "251",
     "product-name": "Cooper Flagg #251",
     "Item #": 14,
-    "id": 11484449
+    "id": 11484449,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cooper Flagg",
@@ -17,7 +775,9 @@
     "Card Number": "SY-11",
     "product-name": "Cooper Flagg #SY-11",
     "Item #": 26,
-    "id": 11498132
+    "id": 11498132,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cooper Flagg",
@@ -27,7 +787,9 @@
     "Card Number": "201",
     "product-name": "Cooper Flagg #201",
     "Item #": 129,
-    "id": 10819468
+    "id": 10819468,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cooper Flagg",
@@ -37,7 +799,9 @@
     "Card Number": "1",
     "product-name": "Cooper Flagg #1",
     "Item #": 149,
-    "id": 12613839
+    "id": 12613839,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Deommodore Lenoir",
@@ -47,7 +811,9 @@
     "Card Number": "269",
     "product-name": "Deommodore Lenoir #269",
     "Item #": 526,
-    "id": 12530822
+    "id": 12530822,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kobe Bryant",
@@ -57,7 +823,9 @@
     "Card Number": "52",
     "product-name": "Kobe Bryant #52",
     "Item #": 4,
-    "id": 87296
+    "id": 87296,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kobe Bryant",
@@ -67,7 +835,9 @@
     "Card Number": "55",
     "product-name": "Kobe Bryant #55",
     "Item #": 5,
-    "id": 85652
+    "id": 85652,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kobe Bryant",
@@ -77,7 +847,9 @@
     "Card Number": "31",
     "product-name": "Kobe Bryant #31",
     "Item #": 192,
-    "id": 3225482
+    "id": 3225482,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -87,7 +859,9 @@
     "Card Number": "122",
     "product-name": "Luka Doncic #122",
     "Item #": 78077713,
-    "id": 116892
+    "id": 116892,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -97,7 +871,9 @@
     "Card Number": "3",
     "product-name": "Luka Doncic #3",
     "Item #": 16,
-    "id": 158107
+    "id": 158107,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -107,7 +883,9 @@
     "Card Number": "9",
     "product-name": "Luka Doncic [Blue Astro] #9",
     "Item #": 23,
-    "id": 9267400
+    "id": 9267400,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -117,7 +895,9 @@
     "Card Number": "15",
     "product-name": "Luka Doncic [Teal] #15",
     "Item #": 110,
-    "id": 2857292
+    "id": 2857292,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -127,7 +907,9 @@
     "Card Number": "15",
     "product-name": "Luka Doncic [Holo] #15",
     "Item #": 132,
-    "id": 4536815
+    "id": 4536815,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -137,7 +919,9 @@
     "Card Number": "10",
     "product-name": "Luka Doncic [Green] #10",
     "Item #": 155,
-    "id": 9960699
+    "id": 9960699,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -147,7 +931,9 @@
     "Card Number": "10",
     "product-name": "Luka Doncic [Green] #10",
     "Item #": 156,
-    "id": 9960699
+    "id": 9960699,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -157,7 +943,9 @@
     "Card Number": "89",
     "product-name": "Luka Doncic [Green] #89",
     "Item #": 215,
-    "id": 8846235
+    "id": 8846235,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -167,7 +955,9 @@
     "Card Number": "43",
     "product-name": "Luka Doncic [Sapphire] #43",
     "Item #": 176,
-    "id": 2967050
+    "id": 2967050,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -177,7 +967,9 @@
     "Card Number": "89",
     "product-name": "Luka Doncic [Pink Ice] #89",
     "Item #": 202,
-    "id": 8537652
+    "id": 8537652,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -187,7 +979,9 @@
     "Card Number": "257",
     "product-name": "Luka Doncic [Pink] #257",
     "Item #": 210,
-    "id": 5507557
+    "id": 5507557,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -197,7 +991,9 @@
     "Card Number": "254",
     "product-name": "Luka Doncic #254",
     "Item #": 336,
-    "id": 920589
+    "id": 920589,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -207,7 +1003,9 @@
     "Card Number": "150",
     "product-name": "Luka Doncic [Red White Orange Shimmer] #150",
     "Item #": 224,
-    "id": 2491470
+    "id": 2491470,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -217,7 +1015,9 @@
     "Card Number": "26",
     "product-name": "Luka Doncic #26",
     "Item #": 220,
-    "id": 4950668
+    "id": 4950668,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -227,7 +1027,9 @@
     "Card Number": "16",
     "product-name": "Luka Doncic [Mosaic] #16",
     "Item #": 216,
-    "id": 10339925
+    "id": 10339925,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -237,7 +1039,9 @@
     "Card Number": "29",
     "product-name": "Luka Doncic #29",
     "Item #": 228,
-    "id": 2884706
+    "id": 2884706,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -247,7 +1051,9 @@
     "Card Number": "18",
     "product-name": "Luka Doncic [Red Ice] #18",
     "Item #": 225,
-    "id": 7511275
+    "id": 7511275,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -257,7 +1063,9 @@
     "Card Number": "9",
     "product-name": "Luka Doncic #9",
     "Item #": 236,
-    "id": 9804304
+    "id": 9804304,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -267,7 +1075,9 @@
     "Card Number": "141",
     "product-name": "Luka Doncic [Green White Purple Prizm] #141",
     "Item #": 240,
-    "id": 10024204
+    "id": 10024204,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -277,7 +1087,9 @@
     "Card Number": "13",
     "product-name": "Luka Doncic  [Purple] #13",
     "Item #": 312,
-    "id": 6834778
+    "id": 6834778,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -287,7 +1099,9 @@
     "Card Number": "214",
     "product-name": "Luka Doncic [Green Seismic] #214",
     "Item #": 246,
-    "id": 10199082
+    "id": 10199082,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -297,7 +1111,9 @@
     "Card Number": "281",
     "product-name": "Luka Doncic [Slime] #281",
     "Item #": 207,
-    "id": 10122943
+    "id": 10122943,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -307,7 +1123,9 @@
     "Card Number": "7",
     "product-name": "Luka Doncic [Blue Prizm] #7",
     "Item #": 259,
-    "id": 4245820
+    "id": 4245820,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -317,7 +1135,9 @@
     "Card Number": "519",
     "product-name": "Luka Doncic #519",
     "Item #": 281,
-    "id": 2946119
+    "id": 2946119,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -327,7 +1147,9 @@
     "Card Number": "3",
     "product-name": "Luka Doncic #3",
     "Item #": 287,
-    "id": 5289298
+    "id": 5289298,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -337,7 +1159,9 @@
     "Card Number": "9",
     "product-name": "Luka Doncic #9",
     "Item #": 276,
-    "id": 7375322
+    "id": 7375322,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -347,7 +1171,9 @@
     "Card Number": "NTN-11",
     "product-name": "Luka Doncic #NTN-11",
     "Item #": 266,
-    "id": 12962084
+    "id": 12962084,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -357,7 +1183,9 @@
     "Card Number": "18",
     "product-name": "Luka Doncic [Bronze] #18",
     "Item #": 282,
-    "id": 3484717
+    "id": 3484717,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -367,7 +1195,9 @@
     "Card Number": "295",
     "product-name": "Luka Doncic #295",
     "Item #": 368,
-    "id": 6059252
+    "id": 6059252,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -377,7 +1207,9 @@
     "Card Number": "75",
     "product-name": "Luka Doncic #75",
     "Item #": 320,
-    "id": 95654
+    "id": 95654,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -387,7 +1219,9 @@
     "Card Number": "7",
     "product-name": "Luka Doncic [Holo] #7",
     "Item #": 305,
-    "id": 4116083
+    "id": 4116083,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -397,7 +1231,9 @@
     "Card Number": "13",
     "product-name": "Luka Doncic [Astro] #13",
     "Item #": 241,
-    "id": 9259984
+    "id": 9259984,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -407,7 +1243,9 @@
     "Card Number": "7",
     "product-name": "Luka Doncic [Purple] #7",
     "Item #": 311,
-    "id": 5289892
+    "id": 5289892,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -417,7 +1255,9 @@
     "Card Number": "134",
     "product-name": "Luka Doncic #134",
     "Item #": 318,
-    "id": 10121893
+    "id": 10121893,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -427,7 +1267,9 @@
     "Card Number": "9",
     "product-name": "Luka Doncic #9",
     "Item #": 326,
-    "id": 5750462
+    "id": 5750462,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -437,7 +1279,9 @@
     "Card Number": "15",
     "product-name": "Luka Doncic #15",
     "Item #": 333,
-    "id": 2482733
+    "id": 2482733,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -447,7 +1291,9 @@
     "Card Number": "228",
     "product-name": "Luka Doncic [Pink] #228",
     "Item #": 365,
-    "id": 2948779
+    "id": 2948779,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -457,7 +1303,9 @@
     "Card Number": "89",
     "product-name": "Luka Doncic #89",
     "Item #": 361,
-    "id": 8537640
+    "id": 8537640,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -467,7 +1315,9 @@
     "Card Number": "1",
     "product-name": "Luka Doncic #1",
     "Item #": 378,
-    "id": 9265985
+    "id": 9265985,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -477,7 +1327,9 @@
     "Card Number": "2",
     "product-name": "Luka Doncic #2",
     "Item #": 362,
-    "id": 5001342
+    "id": 5001342,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -487,7 +1339,9 @@
     "Card Number": "300",
     "product-name": "Luka Doncic #300",
     "Item #": 566,
-    "id": 2945900
+    "id": 2945900,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -497,7 +1351,9 @@
     "Card Number": "7",
     "product-name": "Luka Doncic #7",
     "Item #": 384,
-    "id": 4245780
+    "id": 4245780,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -507,7 +1363,9 @@
     "Card Number": "6",
     "product-name": "Luka Doncic #6",
     "Item #": 484,
-    "id": 6421639
+    "id": 6421639,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -517,7 +1375,9 @@
     "Card Number": "1",
     "product-name": "Luka Doncic #1",
     "Item #": 387,
-    "id": 6422084
+    "id": 6422084,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -527,7 +1387,9 @@
     "Card Number": "4",
     "product-name": "Luka Doncic #4",
     "Item #": 397,
-    "id": 4116797
+    "id": 4116797,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -537,7 +1399,9 @@
     "Card Number": "57",
     "product-name": "Luka Doncic #57",
     "Item #": 421,
-    "id": 5050142
+    "id": 5050142,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -547,7 +1411,9 @@
     "Card Number": "214",
     "product-name": "Luka Doncic [Hyper Pink] #214",
     "Item #": 357,
-    "id": 10199090
+    "id": 10199090,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -557,7 +1423,9 @@
     "Card Number": "62",
     "product-name": "Luka Doncic [Purple] #62",
     "Item #": 304,
-    "id": 3114681
+    "id": 3114681,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -567,7 +1435,9 @@
     "Card Number": "8",
     "product-name": "Luka Doncic #8",
     "Item #": 433,
-    "id": 8561174
+    "id": 8561174,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -577,7 +1447,9 @@
     "Card Number": "223",
     "product-name": "Luka Doncic #223",
     "Item #": 396,
-    "id": 3727503
+    "id": 3727503,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -587,7 +1459,9 @@
     "Card Number": "4",
     "product-name": "Luka Doncic #4",
     "Item #": 393,
-    "id": 8560255
+    "id": 8560255,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -597,7 +1471,9 @@
     "Card Number": "115",
     "product-name": "Luka Doncic #115",
     "Item #": 417,
-    "id": 8394422
+    "id": 8394422,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -607,7 +1483,9 @@
     "Card Number": "115",
     "product-name": "Luka Doncic #115",
     "Item #": 422,
-    "id": 8394422
+    "id": 8394422,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -617,7 +1495,9 @@
     "Card Number": "82",
     "product-name": "Luka Doncic #82",
     "Item #": 416,
-    "id": 8771795
+    "id": 8771795,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -627,7 +1507,9 @@
     "Card Number": "82",
     "product-name": "Luka Doncic #82",
     "Item #": 418,
-    "id": 8771795
+    "id": 8771795,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -637,7 +1519,9 @@
     "Card Number": "82",
     "product-name": "Luka Doncic #82",
     "Item #": 423,
-    "id": 8771795
+    "id": 8771795,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -647,7 +1531,9 @@
     "Card Number": "12",
     "product-name": "Luka Doncic #12",
     "Item #": 454,
-    "id": 8560406
+    "id": 8560406,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -657,7 +1543,9 @@
     "Card Number": "12",
     "product-name": "Luka Doncic #12",
     "Item #": 456,
-    "id": 8560406
+    "id": 8560406,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -667,7 +1555,9 @@
     "Card Number": "3",
     "product-name": "Luka Doncic #3",
     "Item #": 323,
-    "id": 6713723
+    "id": 6713723,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -677,7 +1567,9 @@
     "Card Number": "304",
     "product-name": "Luka Doncic #304",
     "Item #": 474,
-    "id": 4166936
+    "id": 4166936,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -687,7 +1579,9 @@
     "Card Number": "8",
     "product-name": "Luka Doncic #8",
     "Item #": 469,
-    "id": 4754153
+    "id": 4754153,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -697,7 +1591,9 @@
     "Card Number": "281",
     "product-name": "Luka Doncic #281",
     "Item #": 460,
-    "id": 8404075
+    "id": 8404075,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -707,7 +1603,9 @@
     "Card Number": "12",
     "product-name": "Luka Doncic [Blue Prizm] #12",
     "Item #": 411,
-    "id": 4235113
+    "id": 4235113,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -717,7 +1615,9 @@
     "Card Number": "3",
     "product-name": "Luka Doncic #3",
     "Item #": 498,
-    "id": 6292612
+    "id": 6292612,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -727,7 +1627,9 @@
     "Card Number": "141",
     "product-name": "Luka Doncic #141",
     "Item #": 436,
-    "id": 6284400
+    "id": 6284400,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -737,7 +1639,9 @@
     "Card Number": "51",
     "product-name": "Luka Doncic #51",
     "Item #": 516,
-    "id": 5463644
+    "id": 5463644,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -747,7 +1651,9 @@
     "Card Number": "3",
     "product-name": "Luka Doncic #3",
     "Item #": 515,
-    "id": 8406896
+    "id": 8406896,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -757,7 +1663,9 @@
     "Card Number": "13",
     "product-name": "Luka Doncic #13",
     "Item #": 542,
-    "id": 9259985
+    "id": 9259985,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -767,7 +1675,9 @@
     "Card Number": "15",
     "product-name": "Luka Doncic [Blue Retail] #15",
     "Item #": 559,
-    "id": 2483033
+    "id": 2483033,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Luka Doncic",
@@ -777,7 +1687,9 @@
     "Card Number": "151",
     "product-name": "Luka Doncic #151",
     "Item #": 584,
-    "id": 5463744
+    "id": 5463744,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Mac McClung",
@@ -787,7 +1699,9 @@
     "Card Number": "DP-MMC",
     "product-name": "Mac McClung [Red] #DP-MMC",
     "Item #": 22,
-    "id": 13280701
+    "id": 13280701,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Mac McClung",
@@ -797,7 +1711,9 @@
     "Card Number": "39",
     "product-name": "Mac McClung #39",
     "Item #": 429,
-    "id": 3351202
+    "id": 3351202,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -807,7 +1723,9 @@
     "Card Number": "11",
     "product-name": "Michael Jordan #11",
     "Item #": 3,
-    "id": 85372
+    "id": 85372,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -817,7 +1735,9 @@
     "Card Number": "241",
     "product-name": "Michael Jordan #241",
     "Item #": 7,
-    "id": 85449
+    "id": 85449,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -827,7 +1747,9 @@
     "Card Number": "T59",
     "product-name": "Michael Jordan #T59",
     "Item #": 10,
-    "id": 3279930
+    "id": 3279930,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -837,7 +1759,9 @@
     "Card Number": "SP1",
     "product-name": "Michael Jordan #SP1",
     "Item #": 9,
-    "id": 1951621
+    "id": 1951621,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -847,7 +1771,9 @@
     "Card Number": "16",
     "product-name": "Michael Jordan #16",
     "Item #": 17,
-    "id": 85637
+    "id": 85637,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -857,7 +1783,9 @@
     "Card Number": "16",
     "product-name": "Michael Jordan #16",
     "Item #": 18,
-    "id": 85637
+    "id": 85637,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -867,7 +1795,9 @@
     "Card Number": "M25",
     "product-name": "Michael Jordan #M25",
     "Item #": 37,
-    "id": 8958970
+    "id": 8958970,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -877,7 +1807,9 @@
     "Card Number": "39",
     "product-name": "Michael Jordan #39",
     "Item #": 111,
-    "id": 154462
+    "id": 154462,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -887,7 +1819,9 @@
     "Card Number": "16",
     "product-name": "Michael Jordan #16",
     "Item #": 163,
-    "id": 87370
+    "id": 87370,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -897,7 +1831,9 @@
     "Card Number": "CA10",
     "product-name": "Michael Jordan #CA10",
     "Item #": 161,
-    "id": 2263220
+    "id": 2263220,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -907,7 +1843,9 @@
     "Card Number": "CA9",
     "product-name": "Michael Jordan #CA9",
     "Item #": 147,
-    "id": 3296094
+    "id": 3296094,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -917,7 +1855,9 @@
     "Card Number": "AT3",
     "product-name": "Michael Jordan #AT3",
     "Item #": 135,
-    "id": 5550603
+    "id": 5550603,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -927,7 +1867,9 @@
     "Card Number": "AT5",
     "product-name": "Michael Jordan #AT5",
     "Item #": 144,
-    "id": 5550606
+    "id": 5550606,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -937,7 +1879,9 @@
     "Card Number": "137",
     "product-name": "Michael Jordan #137",
     "Item #": 172,
-    "id": 83773
+    "id": 83773,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -947,7 +1891,9 @@
     "Card Number": "23",
     "product-name": "Michael Jordan #23",
     "Item #": 167,
-    "id": 83746
+    "id": 83746,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -957,7 +1903,9 @@
     "Card Number": "23",
     "product-name": "Michael Jordan #23",
     "Item #": 168,
-    "id": 83746
+    "id": 83746,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -967,7 +1915,9 @@
     "Card Number": "CA1",
     "product-name": "Michael Jordan #CA1",
     "Item #": 166,
-    "id": 2755758
+    "id": 2755758,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -977,7 +1927,9 @@
     "Card Number": "CA2",
     "product-name": "Michael Jordan #CA2",
     "Item #": 171,
-    "id": 3296095
+    "id": 3296095,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -987,7 +1939,9 @@
     "Card Number": "23",
     "product-name": "Michael Jordan #23",
     "Item #": 181,
-    "id": 93699
+    "id": 93699,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -997,7 +1951,9 @@
     "Card Number": "44",
     "product-name": "Michael Jordan #44",
     "Item #": 180,
-    "id": 154635
+    "id": 154635,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1007,7 +1963,9 @@
     "Card Number": "CA7",
     "product-name": "Michael Jordan #CA7",
     "Item #": 187,
-    "id": 3296099
+    "id": 3296099,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1017,7 +1975,9 @@
     "Card Number": "CA5",
     "product-name": "Michael Jordan #CA5",
     "Item #": 189,
-    "id": 3296097
+    "id": 3296097,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1027,7 +1987,9 @@
     "Card Number": "CA4",
     "product-name": "Michael Jordan #CA4",
     "Item #": 188,
-    "id": 3219585
+    "id": 3219585,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1037,7 +1999,9 @@
     "Card Number": "CA6",
     "product-name": "Michael Jordan #CA6",
     "Item #": 200,
-    "id": 3296098
+    "id": 3296098,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1047,7 +2011,9 @@
     "Card Number": "159",
     "product-name": "Michael Jordan #159",
     "Item #": 195,
-    "id": 5790767
+    "id": 5790767,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1057,7 +2023,9 @@
     "Card Number": "CA8",
     "product-name": "Michael Jordan #CA8",
     "Item #": 204,
-    "id": 4423452
+    "id": 4423452,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1067,7 +2035,9 @@
     "Card Number": "23",
     "product-name": "Michael Jordan #23",
     "Item #": 184,
-    "id": 84142
+    "id": 84142,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1077,7 +2047,9 @@
     "Card Number": "165",
     "product-name": "Michael Jordan #165",
     "Item #": 197,
-    "id": 87411
+    "id": 87411,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1087,7 +2059,9 @@
     "Card Number": "165",
     "product-name": "Michael Jordan #165",
     "Item #": 198,
-    "id": 87411
+    "id": 87411,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1097,7 +2071,9 @@
     "Card Number": "199",
     "product-name": "Michael Jordan #199",
     "Item #": 169,
-    "id": 80786
+    "id": 80786,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan",
@@ -1107,7 +2083,9 @@
     "Card Number": "69",
     "product-name": "Michael Jordan #69",
     "Item #": 229,
-    "id": 154660
+    "id": 154660,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Spider-Man",
@@ -1117,7 +2095,9 @@
     "Card Number": "4",
     "product-name": "Spider-Man #4",
     "Item #": 19,
-    "id": 9277532
+    "id": 9277532,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1127,7 +2107,9 @@
     "Card Number": "KI-VW",
     "product-name": "Victor Wembanyama #KI-VW",
     "Item #": 30,
-    "id": 11909426
+    "id": 11909426,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1137,7 +2119,9 @@
     "Card Number": "BB-VW",
     "product-name": "Victor Wembanyama #BB-VW",
     "Item #": 44,
-    "id": 11830213
+    "id": 11830213,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1147,7 +2131,9 @@
     "Card Number": "BB-VW",
     "product-name": "Victor Wembanyama #BB-VW",
     "Item #": 45,
-    "id": 11830213
+    "id": 11830213,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1157,7 +2143,9 @@
     "Card Number": "BB-VW",
     "product-name": "Victor Wembanyama #BB-VW",
     "Item #": 46,
-    "id": 11830213
+    "id": 11830213,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1167,7 +2155,9 @@
     "Card Number": "BB-VW",
     "product-name": "Victor Wembanyama #BB-VW",
     "Item #": 47,
-    "id": 11830213
+    "id": 11830213,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1177,7 +2167,9 @@
     "Card Number": "IP-6",
     "product-name": "Victor Wembanyama #IP-6",
     "Item #": 211,
-    "id": 11497700
+    "id": 11497700,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1187,7 +2179,9 @@
     "Card Number": "289",
     "product-name": "Victor Wembanyama #289",
     "Item #": 214,
-    "id": 12957424
+    "id": 12957424,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1197,7 +2191,9 @@
     "Card Number": "195",
     "product-name": "Victor Wembanyama #195",
     "Item #": 530,
-    "id": 10819453
+    "id": 10819453,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1207,7 +2203,9 @@
     "Card Number": "143",
     "product-name": "Victor Wembanyama #143",
     "Item #": 414,
-    "id": 12615262
+    "id": 12615262,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Victor Wembanyama",
@@ -1217,7 +2215,9 @@
     "Card Number": "143",
     "product-name": "Victor Wembanyama #143",
     "Item #": 419,
-    "id": 12615262
+    "id": 12615262,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Austin Reaves",
@@ -1227,7 +2227,9 @@
     "Card Number": "123",
     "product-name": "Austin Reaves #123",
     "Item #": 79810203,
-    "id": 5021346
+    "id": 5021346,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Austin Reaves",
@@ -1237,7 +2239,9 @@
     "Card Number": "SF-8",
     "product-name": "Austin Reaves [Refractor Green] #SF-8",
     "Item #": 31,
-    "id": 11493558
+    "id": 11493558,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Austin Reaves",
@@ -1247,7 +2251,9 @@
     "Card Number": "165",
     "product-name": "Austin Reaves #165",
     "Item #": 274,
-    "id": 3727445
+    "id": 3727445,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Austin Reaves",
@@ -1257,7 +2263,9 @@
     "Card Number": "163",
     "product-name": "Austin Reaves [Storm] #163",
     "Item #": 253,
-    "id": 8776006
+    "id": 8776006,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Austin Reaves",
@@ -1267,7 +2275,9 @@
     "Card Number": "138",
     "product-name": "Austin Reaves [Winter] #138",
     "Item #": 420,
-    "id": 8395765
+    "id": 8395765,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dirk Nowitzki",
@@ -1277,7 +2287,9 @@
     "Card Number": "92",
     "product-name": "Dirk Nowitzki [Double] #92",
     "Item #": 12,
-    "id": 94070
+    "id": 94070,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dirk Nowitzki",
@@ -1287,7 +2299,9 @@
     "Card Number": "252",
     "product-name": "Dirk Nowitzki [Blackout] #252",
     "Item #": 338,
-    "id": 10819755
+    "id": 10819755,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dirk Nowitzki",
@@ -1297,7 +2311,9 @@
     "Card Number": "246",
     "product-name": "Dirk Nowitzki [Refractor] #246",
     "Item #": 475,
-    "id": 11484094
+    "id": 11484094,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dirk Nowitzki",
@@ -1307,7 +2323,9 @@
     "Card Number": "246",
     "product-name": "Dirk Nowitzki [Refractor] #246",
     "Item #": 479,
-    "id": 11484094
+    "id": 11484094,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Gary Payton",
@@ -1317,7 +2335,9 @@
     "Card Number": "SO6",
     "product-name": "Gary Payton #SO6",
     "Item #": 25,
-    "id": 13073269
+    "id": 13073269,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Gary Payton",
@@ -1327,7 +2347,9 @@
     "Card Number": "10",
     "product-name": "Gary Payton #10",
     "Item #": 118,
-    "id": 6795696
+    "id": 6795696,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Gary Payton",
@@ -1337,7 +2359,9 @@
     "Card Number": "FB20",
     "product-name": "Gary Payton #FB20",
     "Item #": 263,
-    "id": 3112963
+    "id": 3112963,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Gary Payton",
@@ -1347,7 +2371,9 @@
     "Card Number": "103",
     "product-name": "Gary Payton #103",
     "Item #": 408,
-    "id": 83384
+    "id": 83384,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Gary Payton",
@@ -1357,7 +2383,9 @@
     "Card Number": "17",
     "product-name": "Gary Payton #17",
     "Item #": 437,
-    "id": 10117339
+    "id": 10117339,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Grant Hill",
@@ -1367,7 +2395,9 @@
     "Card Number": "11",
     "product-name": "Grant Hill #11",
     "Item #": 27,
-    "id": 90556
+    "id": 90556,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Grant Hill",
@@ -1377,7 +2407,9 @@
     "Card Number": "11",
     "product-name": "Grant Hill #11",
     "Item #": 126,
-    "id": 8802260
+    "id": 8802260,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Grant Hill",
@@ -1387,7 +2419,9 @@
     "Card Number": "11",
     "product-name": "Grant Hill #11",
     "Item #": 127,
-    "id": 8802260
+    "id": 8802260,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Grant Hill",
@@ -1397,7 +2431,9 @@
     "Card Number": "239",
     "product-name": "Grant Hill #239",
     "Item #": 472,
-    "id": 3229566
+    "id": 3229566,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1407,7 +2443,9 @@
     "Card Number": "PR12",
     "product-name": "Jason Williams #PR12",
     "Item #": 34,
-    "id": 5862286
+    "id": 5862286,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1417,7 +2455,9 @@
     "Card Number": "232",
     "product-name": "Jason Williams #232",
     "Item #": 115,
-    "id": 92108
+    "id": 92108,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1427,7 +2467,9 @@
     "Card Number": "EG2",
     "product-name": "Jason Williams #EG2",
     "Item #": 49,
-    "id": 5885838
+    "id": 5885838,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1437,7 +2479,9 @@
     "Card Number": "M15",
     "product-name": "Jason Williams #M15",
     "Item #": 120,
-    "id": 10604045
+    "id": 10604045,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1447,7 +2491,9 @@
     "Card Number": "107",
     "product-name": "Jason Williams #107",
     "Item #": 152,
-    "id": 92496
+    "id": 92496,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1457,7 +2503,9 @@
     "Card Number": "NC17",
     "product-name": "Jason Williams #NC17",
     "Item #": 199,
-    "id": 8672420
+    "id": 8672420,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1467,7 +2515,9 @@
     "Card Number": "7GX",
     "product-name": "Jason Williams #7GX",
     "Item #": 179,
-    "id": 8192392
+    "id": 8192392,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1477,7 +2527,9 @@
     "Card Number": "6",
     "product-name": "Jason Williams #6",
     "Item #": 185,
-    "id": 10052322
+    "id": 10052322,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1487,7 +2539,9 @@
     "Card Number": "50",
     "product-name": "Jason Williams #50",
     "Item #": 201,
-    "id": 93096
+    "id": 93096,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1497,7 +2551,9 @@
     "Card Number": "51",
     "product-name": "Jason Williams #51",
     "Item #": 243,
-    "id": 5837032
+    "id": 5837032,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1507,7 +2563,9 @@
     "Card Number": "51",
     "product-name": "Jason Williams #51",
     "Item #": 244,
-    "id": 5837032
+    "id": 5837032,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1517,7 +2575,9 @@
     "Card Number": "57",
     "product-name": "Jason Williams #57",
     "Item #": 267,
-    "id": 8950906
+    "id": 8950906,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1527,7 +2587,9 @@
     "Card Number": "8SF",
     "product-name": "Jason Williams #8SF",
     "Item #": 358,
-    "id": 8355826
+    "id": 8355826,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1537,7 +2599,9 @@
     "Card Number": "200",
     "product-name": "Jason Williams #200",
     "Item #": 360,
-    "id": 93345
+    "id": 93345,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1547,7 +2611,9 @@
     "Card Number": "69",
     "product-name": "Jason Williams #69",
     "Item #": 299,
-    "id": 8306386
+    "id": 8306386,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1557,7 +2623,9 @@
     "Card Number": "69",
     "product-name": "Jason Williams #69",
     "Item #": 301,
-    "id": 8306386
+    "id": 8306386,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1567,7 +2635,9 @@
     "Card Number": "2",
     "product-name": "Jason Williams #2",
     "Item #": 350,
-    "id": 10597436
+    "id": 10597436,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1577,7 +2647,9 @@
     "Card Number": "37",
     "product-name": "Jason Williams [All American] #37",
     "Item #": 402,
-    "id": 6314978
+    "id": 6314978,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "jason williams",
@@ -1587,7 +2659,9 @@
     "Card Number": "61",
     "product-name": "jason williams #61",
     "Item #": 409,
-    "id": 4476384
+    "id": 4476384,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1597,7 +2671,9 @@
     "Card Number": "121",
     "product-name": "Jason Williams #121",
     "Item #": 391,
-    "id": 5923661
+    "id": 5923661,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1607,7 +2683,9 @@
     "Card Number": "121",
     "product-name": "Jason Williams #121",
     "Item #": 392,
-    "id": 5923661
+    "id": 5923661,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1617,7 +2695,9 @@
     "Card Number": "TT11",
     "product-name": "Jason Williams #TT11",
     "Item #": 482,
-    "id": 10597513
+    "id": 10597513,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1627,7 +2707,9 @@
     "Card Number": "101",
     "product-name": "Jason Williams #101",
     "Item #": 487,
-    "id": 7211541
+    "id": 7211541,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Williams",
@@ -1637,7 +2719,9 @@
     "Card Number": "214",
     "product-name": "Jason Williams #214",
     "Item #": 473,
-    "id": 8326198
+    "id": 8326198,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Ken Griffey Jr.",
@@ -1647,7 +2731,9 @@
     "Card Number": "336",
     "product-name": "Ken Griffey Jr. #336",
     "Item #": 43,
-    "id": 1943272
+    "id": 1943272,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Ken Griffey Jr.",
@@ -1657,7 +2743,9 @@
     "Card Number": "424",
     "product-name": "Ken Griffey Jr. #424",
     "Item #": 373,
-    "id": 1958261
+    "id": 1958261,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Mark Jackson",
@@ -1667,7 +2755,9 @@
     "Card Number": "205",
     "product-name": "Mark Jackson #205",
     "Item #": 41,
-    "id": 76305
+    "id": 76305,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1677,7 +2767,9 @@
     "Card Number": "84",
     "product-name": "Nikola Jokic [Ruby Wave Prizm] #84",
     "Item #": 51082129,
-    "id": 95721
+    "id": 95721,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1687,7 +2779,9 @@
     "Card Number": "12",
     "product-name": "Nikola Jokic [Silver] #12",
     "Item #": 50,
-    "id": 8388520
+    "id": 8388520,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1697,7 +2791,9 @@
     "Card Number": "92",
     "product-name": "Nikola Jokic [Silver Prizm] #92",
     "Item #": 141,
-    "id": 112623
+    "id": 112623,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1707,7 +2803,9 @@
     "Card Number": "28",
     "product-name": "Nikola Jokic [Holo] #28",
     "Item #": 177,
-    "id": 2892569
+    "id": 2892569,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1717,7 +2815,9 @@
     "Card Number": "60",
     "product-name": "Nikola Jokic [Blue] #60",
     "Item #": 208,
-    "id": 11829461
+    "id": 11829461,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1727,7 +2827,9 @@
     "Card Number": "291",
     "product-name": "Nikola Jokic #291",
     "Item #": 405,
-    "id": 6059248
+    "id": 6059248,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1737,7 +2839,9 @@
     "Card Number": "100",
     "product-name": "Nikola Jokic [Hyper Pink] #100",
     "Item #": 443,
-    "id": 10190248
+    "id": 10190248,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1747,7 +2851,9 @@
     "Card Number": "YK-6",
     "product-name": "Nikola Jokic #YK-6",
     "Item #": 455,
-    "id": 12643617
+    "id": 12643617,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1757,7 +2863,9 @@
     "Card Number": "96",
     "product-name": "Nikola Jokic [Purple Shock] #96",
     "Item #": 527,
-    "id": 2535681
+    "id": 2535681,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nikola Jokic",
@@ -1767,7 +2875,9 @@
     "Card Number": "GT-9",
     "product-name": "Nikola Jokic #GT-9",
     "Item #": 539,
-    "id": 11496915
+    "id": 11496915,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1777,7 +2887,9 @@
     "Card Number": "5",
     "product-name": "Shai Gilgeous-Alexander [Yellow ice] #5",
     "Item #": 21,
-    "id": 7511050
+    "id": 7511050,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1787,7 +2899,9 @@
     "Card Number": "195",
     "product-name": "Shai Gilgeous-Alexander #195",
     "Item #": 33,
-    "id": 105679
+    "id": 105679,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1797,7 +2911,9 @@
     "Card Number": "100C-SG",
     "product-name": "Shai Gilgeous-Alexander #100C-SG",
     "Item #": 191,
-    "id": 11830175
+    "id": 11830175,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1807,7 +2923,9 @@
     "Card Number": "SH-SG",
     "product-name": "Shai Gilgeous-Alexander #SH-SG",
     "Item #": 250,
-    "id": 11909462
+    "id": 11909462,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1817,7 +2935,9 @@
     "Card Number": "SH-SG",
     "product-name": "Shai Gilgeous-Alexander #SH-SG",
     "Item #": 251,
-    "id": 11909462
+    "id": 11909462,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1827,7 +2947,9 @@
     "Card Number": "127",
     "product-name": "Shai Gilgeous-Alexander [Hyper Pink] #127",
     "Item #": 316,
-    "id": 10193263
+    "id": 10193263,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1837,7 +2959,9 @@
     "Card Number": "35",
     "product-name": "Shai Gilgeous-Alexander #35",
     "Item #": 381,
-    "id": 2963876
+    "id": 2963876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1847,7 +2971,9 @@
     "Card Number": "6",
     "product-name": "Shai Gilgeous-Alexander #6",
     "Item #": 332,
-    "id": 10210719
+    "id": 10210719,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1857,7 +2983,9 @@
     "Card Number": "104",
     "product-name": "Shai Gilgeous-Alexander [Hyper Pink] #104",
     "Item #": 370,
-    "id": 6822796
+    "id": 6822796,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1867,7 +2995,9 @@
     "Card Number": "76",
     "product-name": "Shai Gilgeous-Alexander [Winter] #76",
     "Item #": 424,
-    "id": 7808017
+    "id": 7808017,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1877,7 +3007,9 @@
     "Card Number": "6",
     "product-name": "Shai Gilgeous-Alexander #6",
     "Item #": 533,
-    "id": 10212324
+    "id": 10212324,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1887,7 +3019,9 @@
     "Card Number": "8",
     "product-name": "Shai Gilgeous-Alexander #8",
     "Item #": 496,
-    "id": 9259816
+    "id": 9259816,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1897,7 +3031,9 @@
     "Card Number": "8",
     "product-name": "Shai Gilgeous-Alexander #8",
     "Item #": 497,
-    "id": 9259816
+    "id": 9259816,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1907,7 +3043,9 @@
     "Card Number": "286",
     "product-name": "Shai Gilgeous-Alexander #286",
     "Item #": 347,
-    "id": 12957398
+    "id": 12957398,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous-Alexander",
@@ -1917,7 +3055,9 @@
     "Card Number": "286",
     "product-name": "Shai Gilgeous-Alexander #286",
     "Item #": 351,
-    "id": 12957398
+    "id": 12957398,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tim Duncan",
@@ -1927,7 +3067,9 @@
     "Card Number": "66",
     "product-name": "Tim Duncan #66",
     "Item #": 24,
-    "id": 89022
+    "id": 89022,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tim Duncan",
@@ -1937,7 +3079,9 @@
     "Card Number": "18",
     "product-name": "Tim Duncan #18",
     "Item #": 119,
-    "id": 90573
+    "id": 90573,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tyrese Maxey",
@@ -1947,7 +3091,9 @@
     "Card Number": "20",
     "product-name": "Tyrese Maxey [Electric Etch Orange Flood] #20",
     "Item #": 28,
-    "id": 10482574
+    "id": 10482574,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tyrese Maxey",
@@ -1957,7 +3103,9 @@
     "Card Number": "135",
     "product-name": "Tyrese Maxey [Holo] #135",
     "Item #": 549,
-    "id": 10192986
+    "id": 10192986,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Wolverine Crippled",
@@ -1967,7 +3115,9 @@
     "Card Number": "4",
     "product-name": "Wolverine Crippled #4",
     "Item #": 122,
-    "id": 6115117
+    "id": 6115117,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -1977,7 +3127,9 @@
     "Card Number": "201",
     "product-name": "Allen Iverson #201",
     "Item #": 117,
-    "id": 85425
+    "id": 85425,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -1987,7 +3139,9 @@
     "Card Number": "236",
     "product-name": "Allen Iverson #236",
     "Item #": 114,
-    "id": 2290904
+    "id": 2290904,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -1997,7 +3151,9 @@
     "Card Number": "91",
     "product-name": "Allen Iverson #91",
     "Item #": 116,
-    "id": 87390
+    "id": 87390,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -2007,7 +3163,9 @@
     "Card Number": "85",
     "product-name": "Allen Iverson #85",
     "Item #": 154,
-    "id": 85669
+    "id": 85669,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -2017,7 +3175,9 @@
     "Card Number": "216",
     "product-name": "Allen Iverson #216",
     "Item #": 164,
-    "id": 85706
+    "id": 85706,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -2027,7 +3187,9 @@
     "Card Number": "66",
     "product-name": "Allen Iverson #66",
     "Item #": 232,
-    "id": 94050
+    "id": 94050,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen iverson",
@@ -2037,7 +3199,9 @@
     "Card Number": NaN,
     "product-name": "Allen iverson",
     "Item #": 217,
-    "id": 2988190
+    "id": 2988190,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -2047,7 +3211,9 @@
     "Card Number": "350",
     "product-name": "Allen Iverson #350",
     "Item #": 270,
-    "id": 87438
+    "id": 87438,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -2057,7 +3223,9 @@
     "Card Number": "66",
     "product-name": "Allen Iverson #66",
     "Item #": 427,
-    "id": 2290991
+    "id": 2290991,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -2067,7 +3235,9 @@
     "Card Number": "54",
     "product-name": "Allen Iverson #54",
     "Item #": 403,
-    "id": 90405
+    "id": 90405,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Allen Iverson",
@@ -2077,7 +3247,9 @@
     "Card Number": "60",
     "product-name": "Allen Iverson #60",
     "Item #": 388,
-    "id": 2945570
+    "id": 2945570,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Alonzo Mourning",
@@ -2087,7 +3259,9 @@
     "Card Number": "3",
     "product-name": "Alonzo Mourning #3",
     "Item #": 150,
-    "id": 13162354
+    "id": 13162354,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Alonzo Mourning",
@@ -2097,7 +3271,9 @@
     "Card Number": "3",
     "product-name": "Alonzo Mourning #3",
     "Item #": 151,
-    "id": 13162354
+    "id": 13162354,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Alonzo Mourning",
@@ -2107,7 +3283,9 @@
     "Card Number": "4",
     "product-name": "Alonzo Mourning #4",
     "Item #": 379,
-    "id": 5122085
+    "id": 5122085,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Anfernee Hardaway",
@@ -2117,7 +3295,9 @@
     "Card Number": "7",
     "product-name": "Anfernee Hardaway #7",
     "Item #": 133,
-    "id": 90544
+    "id": 90544,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Anfernee Hardaway",
@@ -2127,7 +3307,9 @@
     "Card Number": "305",
     "product-name": "Anfernee Hardaway #305",
     "Item #": 386,
-    "id": 80971
+    "id": 80971,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Anfernee Hardaway",
@@ -2137,7 +3319,9 @@
     "Card Number": "382",
     "product-name": "Anfernee Hardaway #382",
     "Item #": 306,
-    "id": 81091
+    "id": 81091,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Anfernee Hardaway",
@@ -2147,7 +3331,9 @@
     "Card Number": "343",
     "product-name": "Anfernee Hardaway #343",
     "Item #": 321,
-    "id": 80255
+    "id": 80255,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Branco",
@@ -2157,7 +3343,9 @@
     "Card Number": "68",
     "product-name": "Branco #68",
     "Item #": 245,
-    "id": 9994315
+    "id": 9994315,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Branco",
@@ -2167,7 +3355,9 @@
     "Card Number": "HS5",
     "product-name": "Branco #HS5",
     "Item #": 273,
-    "id": 12810125
+    "id": 12810125,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Charles Barkley",
@@ -2177,7 +3367,9 @@
     "Card Number": "16",
     "product-name": "Charles Barkley #16",
     "Item #": 112,
-    "id": 8840471
+    "id": 8840471,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Charles Barkley",
@@ -2187,7 +3379,9 @@
     "Card Number": "1",
     "product-name": "Charles Barkley [Metal Edge] #1",
     "Item #": 124,
-    "id": 6266239
+    "id": 6266239,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Charles Barkley",
@@ -2197,7 +3391,9 @@
     "Card Number": "6RR",
     "product-name": "Charles Barkley #6RR",
     "Item #": 159,
-    "id": 2531677
+    "id": 2531677,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Charles Barkley",
@@ -2207,7 +3403,9 @@
     "Card Number": "1",
     "product-name": "Charles Barkley #1",
     "Item #": 257,
-    "id": 5692223
+    "id": 5692223,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Charles Barkley",
@@ -2217,7 +3415,9 @@
     "Card Number": "251",
     "product-name": "Charles Barkley #251",
     "Item #": 468,
-    "id": 8212140
+    "id": 8212140,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Daniel Gafford",
@@ -2227,7 +3427,9 @@
     "Card Number": "78",
     "product-name": "Daniel Gafford [Purple Refractor] #78",
     "Item #": 134,
-    "id": 11473930
+    "id": 11473930,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "David Platt",
@@ -2237,7 +3439,9 @@
     "Card Number": "304",
     "product-name": "David Platt #304",
     "Item #": 255,
-    "id": 10026506
+    "id": 10026506,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Devin Carter",
@@ -2247,7 +3451,9 @@
     "Card Number": "SS-DC",
     "product-name": "Devin Carter #SS-DC",
     "Item #": 227,
-    "id": 11490416
+    "id": 11490416,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dino Baggio",
@@ -2257,7 +3463,9 @@
     "Card Number": "154",
     "product-name": "Dino Baggio #154",
     "Item #": 160,
-    "id": 4949792
+    "id": 4949792,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Donovan Mitchell",
@@ -2267,7 +3475,9 @@
     "Card Number": "188",
     "product-name": "Donovan Mitchell [Red and Yellow] #188",
     "Item #": 113,
-    "id": 120495
+    "id": 120495,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Donovan Mitchell",
@@ -2277,7 +3487,9 @@
     "Card Number": "188",
     "product-name": "Donovan Mitchell #188",
     "Item #": 130,
-    "id": 120468
+    "id": 120468,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Donovan Mitchell",
@@ -2287,7 +3499,9 @@
     "Card Number": "49",
     "product-name": "Donovan Mitchell [Hyper] #49",
     "Item #": 165,
-    "id": 10697652
+    "id": 10697652,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Earvin Johnson",
@@ -2297,7 +3511,9 @@
     "Card Number": "578",
     "product-name": "Earvin Johnson #578",
     "Item #": 226,
-    "id": 154422
+    "id": 154422,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Eric Wynalda",
@@ -2307,7 +3523,9 @@
     "Card Number": "14",
     "product-name": "Eric Wynalda #14",
     "Item #": 221,
-    "id": 4360264
+    "id": 4360264,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "JA Morant",
@@ -2317,7 +3535,9 @@
     "Card Number": "580",
     "product-name": "JA Morant [Silver] #580",
     "Item #": 233,
-    "id": 156855
+    "id": 156855,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "JA Morant",
@@ -2327,7 +3547,9 @@
     "Card Number": "168",
     "product-name": "JA Morant #168",
     "Item #": 209,
-    "id": 156688
+    "id": 156688,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Ja Morant",
@@ -2337,7 +3559,9 @@
     "Card Number": "KI-JM",
     "product-name": "Ja Morant #KI-JM",
     "Item #": 275,
-    "id": 11909420
+    "id": 11909420,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Ja Morant",
@@ -2347,7 +3571,9 @@
     "Card Number": "93",
     "product-name": "Ja Morant [Oil Spill Refractor] #93",
     "Item #": 489,
-    "id": 12104444
+    "id": 12104444,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Ja Morant",
@@ -2357,7 +3583,9 @@
     "Card Number": "264",
     "product-name": "Ja Morant #264",
     "Item #": 432,
-    "id": 12957119
+    "id": 12957119,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jaden McDaniels",
@@ -2367,7 +3595,9 @@
     "Card Number": "10",
     "product-name": "Jaden McDaniels [Silver Prizm] #10",
     "Item #": 222,
-    "id": 8013967
+    "id": 8013967,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jarrett Culver",
@@ -2377,7 +3607,9 @@
     "Card Number": "JCV",
     "product-name": "Jarrett Culver #JCV",
     "Item #": 178,
-    "id": 2102671
+    "id": 2102671,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jayson Tatum",
@@ -2387,7 +3619,9 @@
     "Card Number": "164",
     "product-name": "Jayson Tatum [Orange Basketball Refractor] #164",
     "Item #": 148,
-    "id": 7296808
+    "id": 7296808,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jayson Tatum",
@@ -2397,7 +3631,9 @@
     "Card Number": "51",
     "product-name": "Jayson Tatum [Red Ice] #51",
     "Item #": 314,
-    "id": 6014501
+    "id": 6014501,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Joe Burrow",
@@ -2407,7 +3643,9 @@
     "Card Number": "61",
     "product-name": "Joe Burrow [Pulsar Refractor] #61",
     "Item #": 205,
-    "id": 12520986
+    "id": 12520986,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Joel Embiid",
@@ -2417,7 +3655,9 @@
     "Card Number": "263",
     "product-name": "Joel Embiid #263",
     "Item #": 125,
-    "id": 131835
+    "id": 131835,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Joel Embiid",
@@ -2427,7 +3667,9 @@
     "Card Number": "4",
     "product-name": "Joel Embiid #4",
     "Item #": 162,
-    "id": 5419755
+    "id": 5419755,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Joel Embiid",
@@ -2437,7 +3679,9 @@
     "Card Number": "INS-6",
     "product-name": "Joel Embiid [Purple Geometric Refractor] #INS-6",
     "Item #": 547,
-    "id": 9646041
+    "id": 9646041,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "John Stockton",
@@ -2447,7 +3691,9 @@
     "Card Number": "P18",
     "product-name": "John Stockton #P18",
     "Item #": 182,
-    "id": 11586600
+    "id": 11586600,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "John Stockton",
@@ -2457,7 +3703,9 @@
     "Card Number": "19",
     "product-name": "John Stockton #19",
     "Item #": 503,
-    "id": 6136569
+    "id": 6136569,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Joy Fawcett",
@@ -2467,7 +3715,9 @@
     "Card Number": "272",
     "product-name": "Joy Fawcett #272",
     "Item #": 219,
-    "id": 2730174
+    "id": 2730174,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Julie Foudy",
@@ -2477,7 +3727,9 @@
     "Card Number": "271",
     "product-name": "Julie Foudy #271",
     "Item #": 261,
-    "id": 2730173
+    "id": 2730173,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Karl Malone",
@@ -2487,7 +3739,9 @@
     "Card Number": "7",
     "product-name": "Karl Malone #7",
     "Item #": 174,
-    "id": 13159385
+    "id": 13159385,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kevin Garnett",
@@ -2497,7 +3751,9 @@
     "Card Number": "109",
     "product-name": "Kevin Garnett #109",
     "Item #": 175,
-    "id": 89046
+    "id": 89046,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kevin Garnett",
@@ -2507,7 +3763,9 @@
     "Card Number": "167",
     "product-name": "Kevin Garnett #167",
     "Item #": 157,
-    "id": 83392
+    "id": 83392,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kevin Garnett",
@@ -2517,7 +3775,9 @@
     "Card Number": "254",
     "product-name": "Kevin Garnett #254",
     "Item #": 485,
-    "id": 13162333
+    "id": 13162333,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kevin Garnett",
@@ -2527,7 +3787,9 @@
     "Card Number": "75",
     "product-name": "Kevin Garnett [Game  Dated] #75",
     "Item #": 499,
-    "id": 5811066
+    "id": 5811066,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kevin Garnett",
@@ -2537,7 +3799,9 @@
     "Card Number": "125",
     "product-name": "Kevin Garnett #125",
     "Item #": 500,
-    "id": 3180064
+    "id": 3180064,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kevin Garnett",
@@ -2547,7 +3811,9 @@
     "Card Number": "251",
     "product-name": "Kevin Garnett #251",
     "Item #": 551,
-    "id": 87425
+    "id": 87425,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kevin Garnett",
@@ -2557,7 +3823,9 @@
     "Card Number": "251",
     "product-name": "Kevin Garnett #251",
     "Item #": 553,
-    "id": 87425
+    "id": 87425,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kevin Garnett",
@@ -2567,7 +3835,9 @@
     "Card Number": "251",
     "product-name": "Kevin Garnett #251",
     "Item #": 574,
-    "id": 87425
+    "id": 87425,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "LeBron James",
@@ -2577,7 +3847,9 @@
     "Card Number": "11",
     "product-name": "LeBron James [Phenomenal Beginning] #11",
     "Item #": 40,
-    "id": 147563
+    "id": 147563,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "LeBron James",
@@ -2587,7 +3859,9 @@
     "Card Number": "54",
     "product-name": "LeBron James [Blue Prizm] #54",
     "Item #": 335,
-    "id": 9781694
+    "id": 9781694,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "LeBron James",
@@ -2597,7 +3871,9 @@
     "Card Number": "113",
     "product-name": "LeBron James [Blue Prizm] #113",
     "Item #": 395,
-    "id": 2489255
+    "id": 2489255,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "LeBron James",
@@ -2607,7 +3883,9 @@
     "Card Number": "2",
     "product-name": "LeBron James #2",
     "Item #": 390,
-    "id": 6284261
+    "id": 6284261,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "LeBron James",
@@ -2617,7 +3895,9 @@
     "Card Number": "178",
     "product-name": "LeBron James #178",
     "Item #": 488,
-    "id": 2945777
+    "id": 2945777,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "LeBron James",
@@ -2627,7 +3907,9 @@
     "Card Number": "118",
     "product-name": "LeBron James #118",
     "Item #": 467,
-    "id": 2945720
+    "id": 2945720,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Maximum Carnage",
@@ -2637,7 +3919,9 @@
     "Card Number": "104",
     "product-name": "Maximum Carnage #104",
     "Item #": 289,
-    "id": 5079399
+    "id": 5079399,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Jordan / Scottie Pippen / Dennis Rodman / Toni Kukoc / Ron Harper",
@@ -2647,7 +3931,9 @@
     "Card Number": "139",
     "product-name": "Michael Jordan / Scottie Pippen / Dennis Rodman / Toni Kukoc / Ron Harper #139",
     "Item #": 142,
-    "id": 87401
+    "id": 87401,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael vs. Magic",
@@ -2657,7 +3943,9 @@
     "Card Number": "333",
     "product-name": "Michael vs. Magic #333",
     "Item #": 212,
-    "id": 154508
+    "id": 154508,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Miles Bridges",
@@ -2667,7 +3955,9 @@
     "Card Number": "243",
     "product-name": "Miles Bridges [Red] #243",
     "Item #": 38,
-    "id": 3000560
+    "id": 3000560,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Miles Bridges",
@@ -2677,7 +3967,9 @@
     "Card Number": "67",
     "product-name": "Miles Bridges [Reactive Blue] #67",
     "Item #": 230,
-    "id": 9936923
+    "id": 9936923,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Muller",
@@ -2687,7 +3979,9 @@
     "Card Number": "77",
     "product-name": "Muller #77",
     "Item #": 242,
-    "id": 11668252
+    "id": 11668252,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Paolo Banchero",
@@ -2697,7 +3991,9 @@
     "Card Number": "SA-20",
     "product-name": "Paolo Banchero [Purple Rainbow] #SA-20",
     "Item #": 131,
-    "id": 10842357
+    "id": 10842357,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Patrick Ewing",
@@ -2707,7 +4003,9 @@
     "Card Number": "6",
     "product-name": "Patrick Ewing #6",
     "Item #": 186,
-    "id": 6389627
+    "id": 6389627,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Patrick Ewing",
@@ -2717,7 +4015,9 @@
     "Card Number": "2",
     "product-name": "Patrick Ewing #2",
     "Item #": 256,
-    "id": 5672077
+    "id": 5672077,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Patrick Mahomes II",
@@ -2727,7 +4027,9 @@
     "Card Number": "120",
     "product-name": "Patrick Mahomes II [Red Yellow Prizm Shock] #120",
     "Item #": 194,
-    "id": 9514806
+    "id": 9514806,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Return of Excellence",
@@ -2737,7 +4039,9 @@
     "Card Number": "335",
     "product-name": "Return of Excellence [Electric Court] #335",
     "Item #": 123,
-    "id": 83855
+    "id": 83855,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Ruud Gullit",
@@ -2747,7 +4051,9 @@
     "Card Number": "306",
     "product-name": "Ruud Gullit #306",
     "Item #": 153,
-    "id": 8802138
+    "id": 8802138,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Sam Vincent",
@@ -2757,7 +4063,9 @@
     "Card Number": "223",
     "product-name": "Sam Vincent #223",
     "Item #": 137,
-    "id": 77612
+    "id": 77612,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Sam Vincent",
@@ -2767,7 +4075,9 @@
     "Card Number": "223",
     "product-name": "Sam Vincent #223",
     "Item #": 138,
-    "id": 77612
+    "id": 77612,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Sam Vincent",
@@ -2777,7 +4087,9 @@
     "Card Number": "223",
     "product-name": "Sam Vincent #223",
     "Item #": 139,
-    "id": 77612
+    "id": 77612,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Sam Vincent",
@@ -2787,7 +4099,9 @@
     "Card Number": "223",
     "product-name": "Sam Vincent #223",
     "Item #": 140,
-    "id": 77612
+    "id": 77612,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Sam Vincent",
@@ -2797,7 +4111,9 @@
     "Card Number": "223",
     "product-name": "Sam Vincent #223",
     "Item #": 143,
-    "id": 77612
+    "id": 77612,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Sam Vincent",
@@ -2807,7 +4123,9 @@
     "Card Number": "223",
     "product-name": "Sam Vincent #223",
     "Item #": 145,
-    "id": 77612
+    "id": 77612,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2817,7 +4135,9 @@
     "Card Number": "13",
     "product-name": "Scottie Pippen #13",
     "Item #": 190,
-    "id": 81413
+    "id": 81413,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2827,7 +4147,9 @@
     "Card Number": "14",
     "product-name": "Scottie Pippen #14",
     "Item #": 158,
-    "id": 6755014
+    "id": 6755014,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2837,7 +4159,9 @@
     "Card Number": "14",
     "product-name": "Scottie Pippen #14",
     "Item #": 234,
-    "id": 85375
+    "id": 85375,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2847,7 +4171,9 @@
     "Card Number": "38",
     "product-name": "Scottie Pippen #38",
     "Item #": 366,
-    "id": 94008
+    "id": 94008,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2857,7 +4183,9 @@
     "Card Number": "38",
     "product-name": "Scottie Pippen #38",
     "Item #": 367,
-    "id": 94008
+    "id": 94008,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2867,7 +4195,9 @@
     "Card Number": "197",
     "product-name": "Scottie Pippen #197",
     "Item #": 369,
-    "id": 87421
+    "id": 87421,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2877,7 +4207,9 @@
     "Card Number": "197",
     "product-name": "Scottie Pippen #197",
     "Item #": 371,
-    "id": 87421
+    "id": 87421,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2887,7 +4219,9 @@
     "Card Number": "197",
     "product-name": "Scottie Pippen #197",
     "Item #": 372,
-    "id": 87421
+    "id": 87421,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2897,7 +4231,9 @@
     "Card Number": "197",
     "product-name": "Scottie Pippen #197",
     "Item #": 374,
-    "id": 87421
+    "id": 87421,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2907,7 +4243,9 @@
     "Card Number": "7",
     "product-name": "Scottie Pippen #7",
     "Item #": 458,
-    "id": 2984810
+    "id": 2984810,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Scottie Pippen",
@@ -2917,7 +4255,9 @@
     "Card Number": "1",
     "product-name": "Scottie Pippen [w/ Coating] #1",
     "Item #": 550,
-    "id": 87821
+    "id": 87821,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -2927,7 +4267,9 @@
     "Card Number": "45",
     "product-name": "Shaquille O'Neal [Double] #45",
     "Item #": 36,
-    "id": 5233999
+    "id": 5233999,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'neal",
@@ -2937,7 +4279,9 @@
     "Card Number": "50",
     "product-name": "Shaquille O'neal #50",
     "Item #": 146,
-    "id": 89013
+    "id": 89013,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -2947,7 +4291,9 @@
     "Card Number": "183",
     "product-name": "Shaquille O'Neal #183",
     "Item #": 213,
-    "id": 85417
+    "id": 85417,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -2957,7 +4303,9 @@
     "Card Number": "39",
     "product-name": "Shaquille O'Neal #39",
     "Item #": 283,
-    "id": 2920597
+    "id": 2920597,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -2967,7 +4315,9 @@
     "Card Number": "1",
     "product-name": "Shaquille O'Neal #1",
     "Item #": 252,
-    "id": 2920615
+    "id": 2920615,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -2977,7 +4327,9 @@
     "Card Number": "143",
     "product-name": "Shaquille O'Neal #143",
     "Item #": 254,
-    "id": 85405
+    "id": 85405,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -2987,7 +4339,9 @@
     "Card Number": "143",
     "product-name": "Shaquille O'Neal #143",
     "Item #": 260,
-    "id": 85405
+    "id": 85405,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -2997,7 +4351,9 @@
     "Card Number": "143",
     "product-name": "Shaquille O'Neal #143",
     "Item #": 262,
-    "id": 85405
+    "id": 85405,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3007,7 +4363,9 @@
     "Card Number": "45",
     "product-name": "Shaquille O'Neal #45",
     "Item #": 173,
-    "id": 94020
+    "id": 94020,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3017,7 +4375,9 @@
     "Card Number": "61",
     "product-name": "Shaquille O'Neal #61",
     "Item #": 614,
-    "id": 87383
+    "id": 87383,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'neal",
@@ -3027,7 +4387,9 @@
     "Card Number": "163",
     "product-name": "Shaquille O'neal #163",
     "Item #": 297,
-    "id": 85691
+    "id": 85691,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'neal",
@@ -3037,7 +4399,9 @@
     "Card Number": "163",
     "product-name": "Shaquille O'neal #163",
     "Item #": 302,
-    "id": 85691
+    "id": 85691,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3047,7 +4411,9 @@
     "Card Number": "23",
     "product-name": "Shaquille O'Neal #23",
     "Item #": 359,
-    "id": 3225874
+    "id": 3225874,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3057,7 +4423,9 @@
     "Card Number": "55",
     "product-name": "Shaquille O'Neal #55",
     "Item #": 223,
-    "id": 87297
+    "id": 87297,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3067,7 +4435,9 @@
     "Card Number": "116",
     "product-name": "Shaquille O'Neal #116",
     "Item #": 352,
-    "id": 89458
+    "id": 89458,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3077,7 +4447,9 @@
     "Card Number": "320",
     "product-name": "Shaquille O'Neal #320",
     "Item #": 399,
-    "id": 4683555
+    "id": 4683555,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3087,7 +4459,9 @@
     "Card Number": "320",
     "product-name": "Shaquille O'Neal #320",
     "Item #": 400,
-    "id": 4683555
+    "id": 4683555,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3097,7 +4471,9 @@
     "Card Number": "320",
     "product-name": "Shaquille O'Neal #320",
     "Item #": 401,
-    "id": 4683555
+    "id": 4683555,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3107,7 +4483,9 @@
     "Card Number": "100",
     "product-name": "Shaquille O'Neal #100",
     "Item #": 248,
-    "id": 82478
+    "id": 82478,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'neal",
@@ -3117,7 +4495,9 @@
     "Card Number": "274",
     "product-name": "Shaquille O'neal #274",
     "Item #": 319,
-    "id": 85734
+    "id": 85734,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3127,7 +4507,9 @@
     "Card Number": "61",
     "product-name": "Shaquille O'Neal #61",
     "Item #": 284,
-    "id": 87383
+    "id": 87383,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3137,7 +4519,9 @@
     "Card Number": "61",
     "product-name": "Shaquille O'Neal #61",
     "Item #": 285,
-    "id": 87383
+    "id": 87383,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3147,7 +4531,9 @@
     "Card Number": "61",
     "product-name": "Shaquille O'Neal #61",
     "Item #": 286,
-    "id": 87383
+    "id": 87383,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3157,7 +4543,9 @@
     "Card Number": "61",
     "product-name": "Shaquille O'Neal #61",
     "Item #": 292,
-    "id": 87383
+    "id": 87383,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3167,7 +4555,9 @@
     "Card Number": "93",
     "product-name": "Shaquille O'Neal #93",
     "Item #": 349,
-    "id": 93764
+    "id": 93764,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3177,7 +4567,9 @@
     "Card Number": "100",
     "product-name": "Shaquille O'Neal #100",
     "Item #": 448,
-    "id": 80566
+    "id": 80566,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3187,7 +4579,9 @@
     "Card Number": "474",
     "product-name": "Shaquille O'Neal #474",
     "Item #": 296,
-    "id": 79500
+    "id": 79500,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3197,7 +4591,9 @@
     "Card Number": "119",
     "product-name": "Shaquille O'Neal #119",
     "Item #": 440,
-    "id": 85394
+    "id": 85394,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3207,7 +4603,9 @@
     "Card Number": "119",
     "product-name": "Shaquille O'Neal #119",
     "Item #": 441,
-    "id": 85394
+    "id": 85394,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3217,7 +4615,9 @@
     "Card Number": "119",
     "product-name": "Shaquille O'Neal #119",
     "Item #": 442,
-    "id": 85394
+    "id": 85394,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3227,7 +4627,9 @@
     "Card Number": "119",
     "product-name": "Shaquille O'Neal #119",
     "Item #": 444,
-    "id": 85394
+    "id": 85394,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3237,7 +4639,9 @@
     "Card Number": "95",
     "product-name": "Shaquille O'Neal #95",
     "Item #": 434,
-    "id": 83761
+    "id": 83761,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shaquille O'Neal",
@@ -3247,7 +4651,9 @@
     "Card Number": "95",
     "product-name": "Shaquille O'Neal #95",
     "Item #": 435,
-    "id": 83761
+    "id": 83761,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Spider-Demon",
@@ -3257,7 +4663,9 @@
     "Card Number": NaN,
     "product-name": "Spider-Demon [Part III]",
     "Item #": 183,
-    "id": 5079441
+    "id": 5079441,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Castle",
@@ -3267,7 +4675,9 @@
     "Card Number": "BCV-145",
     "product-name": "Stephon Castle [Reptilian Refractor] #BCV-145",
     "Item #": 170,
-    "id": 12623502
+    "id": 12623502,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Castle",
@@ -3277,7 +4687,9 @@
     "Card Number": "244",
     "product-name": "Stephon Castle #244",
     "Item #": 425,
-    "id": 8780219
+    "id": 8780219,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Castle",
@@ -3287,7 +4699,9 @@
     "Card Number": "47",
     "product-name": "Stephon Castle #47",
     "Item #": 339,
-    "id": 12950314
+    "id": 12950314,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3297,7 +4711,9 @@
     "Card Number": "9",
     "product-name": "Stephon Marbury #9",
     "Item #": 193,
-    "id": 3310996
+    "id": 3310996,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3307,7 +4723,9 @@
     "Card Number": "KS4",
     "product-name": "Stephon Marbury #KS4",
     "Item #": 237,
-    "id": 6591225
+    "id": 6591225,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3317,7 +4735,9 @@
     "Card Number": "56",
     "product-name": "Stephon Marbury #56",
     "Item #": 309,
-    "id": 6740207
+    "id": 6740207,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3327,7 +4747,9 @@
     "Card Number": "38",
     "product-name": "Stephon Marbury #38",
     "Item #": 353,
-    "id": 7376857
+    "id": 7376857,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3337,7 +4759,9 @@
     "Card Number": "38",
     "product-name": "Stephon Marbury #38",
     "Item #": 354,
-    "id": 7376857
+    "id": 7376857,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3347,7 +4771,9 @@
     "Card Number": "19",
     "product-name": "Stephon Marbury [w/ Coating] #19",
     "Item #": 356,
-    "id": 87847
+    "id": 87847,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3357,7 +4783,9 @@
     "Card Number": "90",
     "product-name": "Stephon Marbury #90",
     "Item #": 315,
-    "id": 89035
+    "id": 89035,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3367,7 +4795,9 @@
     "Card Number": "90",
     "product-name": "Stephon Marbury #90",
     "Item #": 317,
-    "id": 89035
+    "id": 89035,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3377,7 +4807,9 @@
     "Card Number": "74",
     "product-name": "Stephon Marbury #74",
     "Item #": 490,
-    "id": 87387
+    "id": 87387,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3387,7 +4819,9 @@
     "Card Number": "74",
     "product-name": "Stephon Marbury #74",
     "Item #": 491,
-    "id": 87387
+    "id": 87387,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3397,7 +4831,9 @@
     "Card Number": "74",
     "product-name": "Stephon Marbury #74",
     "Item #": 492,
-    "id": 87387
+    "id": 87387,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3407,7 +4843,9 @@
     "Card Number": "74",
     "product-name": "Stephon Marbury #74",
     "Item #": 494,
-    "id": 87387
+    "id": 87387,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3417,7 +4855,9 @@
     "Card Number": "346",
     "product-name": "Stephon Marbury #346",
     "Item #": 501,
-    "id": 87435
+    "id": 87435,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3427,7 +4867,9 @@
     "Card Number": "346",
     "product-name": "Stephon Marbury #346",
     "Item #": 502,
-    "id": 87435
+    "id": 87435,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3437,7 +4879,9 @@
     "Card Number": "134",
     "product-name": "Stephon Marbury #134",
     "Item #": 495,
-    "id": 85398
+    "id": 85398,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3447,7 +4891,9 @@
     "Card Number": "69",
     "product-name": "Stephon Marbury #69",
     "Item #": 380,
-    "id": 85663
+    "id": 85663,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3457,7 +4903,9 @@
     "Card Number": "2",
     "product-name": "Stephon Marbury #2",
     "Item #": 407,
-    "id": 87243
+    "id": 87243,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3467,7 +4915,9 @@
     "Card Number": "189",
     "product-name": "Stephon Marbury #189",
     "Item #": 509,
-    "id": 85421
+    "id": 85421,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3477,7 +4927,9 @@
     "Card Number": "189",
     "product-name": "Stephon Marbury #189",
     "Item #": 512,
-    "id": 85421
+    "id": 85421,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3487,7 +4939,9 @@
     "Card Number": "189",
     "product-name": "Stephon Marbury #189",
     "Item #": 514,
-    "id": 85421
+    "id": 85421,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephon Marbury",
@@ -3497,7 +4951,9 @@
     "Card Number": "121",
     "product-name": "Stephon Marbury #121",
     "Item #": 587,
-    "id": 8088869
+    "id": 8088869,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Thomas Dooley",
@@ -3507,7 +4963,9 @@
     "Card Number": "7",
     "product-name": "Thomas Dooley #7",
     "Item #": 231,
-    "id": 7641306
+    "id": 7641306,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tyrese Haliburton",
@@ -3517,7 +4975,9 @@
     "Card Number": "75",
     "product-name": "Tyrese Haliburton #75",
     "Item #": 128,
-    "id": 2478471
+    "id": 2478471,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tyrese Haliburton",
@@ -3527,7 +4987,9 @@
     "Card Number": "38",
     "product-name": "Tyrese Haliburton [Blue Refractor] #38",
     "Item #": 218,
-    "id": 10134970
+    "id": 10134970,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Vince Carter",
@@ -3537,7 +4999,9 @@
     "Card Number": "120",
     "product-name": "Vince Carter #120",
     "Item #": 42,
-    "id": 94143
+    "id": 94143,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Vince Carter",
@@ -3547,7 +5011,9 @@
     "Card Number": "14",
     "product-name": "Vince Carter #14",
     "Item #": 121,
-    "id": 10714956
+    "id": 10714956,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Vince Carter",
@@ -3557,7 +5023,9 @@
     "Card Number": "79",
     "product-name": "Vince Carter #79",
     "Item #": 535,
-    "id": 2884415
+    "id": 2884415,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Yamil Benitez",
@@ -3567,7 +5035,9 @@
     "Card Number": "239",
     "product-name": "Yamil Benitez #239",
     "Item #": 196,
-    "id": 6665822
+    "id": 6665822,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antawn Jamison",
@@ -3577,7 +5047,9 @@
     "Card Number": "197",
     "product-name": "Antawn Jamison #197",
     "Item #": 438,
-    "id": 93332
+    "id": 93332,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antawn Jamison",
@@ -3587,7 +5059,9 @@
     "Card Number": "197",
     "product-name": "Antawn Jamison #197",
     "Item #": 439,
-    "id": 93332
+    "id": 93332,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Anthony Edwards",
@@ -3597,7 +5071,9 @@
     "Card Number": "3",
     "product-name": "Anthony Edwards #3",
     "Item #": 290,
-    "id": 3401118
+    "id": 3401118,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Anthony Edwards",
@@ -3607,7 +5083,9 @@
     "Card Number": "81",
     "product-name": "Anthony Edwards #81",
     "Item #": 334,
-    "id": 358012
+    "id": 358012,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antoine Walker",
@@ -3617,7 +5095,9 @@
     "Card Number": "6",
     "product-name": "Antoine Walker #6",
     "Item #": 344,
-    "id": 87247
+    "id": 87247,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antoine Walker",
@@ -3627,7 +5107,9 @@
     "Card Number": "9",
     "product-name": "Antoine Walker #9",
     "Item #": 528,
-    "id": 85634
+    "id": 85634,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antoine Walker",
@@ -3637,7 +5119,9 @@
     "Card Number": "187",
     "product-name": "Antoine Walker #187",
     "Item #": 570,
-    "id": 87420
+    "id": 87420,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antoine Walker",
@@ -3647,7 +5131,9 @@
     "Card Number": "187",
     "product-name": "Antoine Walker #187",
     "Item #": 576,
-    "id": 87420
+    "id": 87420,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antonio Daniels",
@@ -3657,7 +5143,9 @@
     "Card Number": "4",
     "product-name": "Antonio Daniels #4",
     "Item #": 294,
-    "id": 7444383
+    "id": 7444383,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antonio McDyess",
@@ -3667,7 +5155,9 @@
     "Card Number": "135",
     "product-name": "Antonio McDyess #135",
     "Item #": 508,
-    "id": 83769
+    "id": 83769,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antonio McDyess",
@@ -3677,7 +5167,9 @@
     "Card Number": "135",
     "product-name": "Antonio McDyess [Electric Court] #135",
     "Item #": 577,
-    "id": 83770
+    "id": 83770,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Antonio McDyess",
@@ -3687,7 +5179,9 @@
     "Card Number": "17",
     "product-name": "Antonio McDyess #17",
     "Item #": 561,
-    "id": 13163232
+    "id": 13163232,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Bam Adebayo",
@@ -3697,7 +5191,9 @@
     "Card Number": "BD-15",
     "product-name": "Bam Adebayo [Refractor] #BD-15",
     "Item #": 341,
-    "id": 11589448
+    "id": 11589448,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Barry Bonds",
@@ -3707,7 +5203,9 @@
     "Card Number": "440",
     "product-name": "Barry Bonds #440",
     "Item #": 506,
-    "id": 1938193
+    "id": 1938193,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Barry Bonds",
@@ -3717,7 +5215,9 @@
     "Card Number": "373",
     "product-name": "Barry Bonds #373",
     "Item #": 481,
-    "id": 2002325
+    "id": 2002325,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Bulls Victory Tour '95-96: Win",
@@ -3727,7 +5227,9 @@
     "Card Number": "46 #26",
     "product-name": "Bulls Victory Tour '95-96: Win #46 #26",
     "Item #": 355,
-    "id": 84144
+    "id": 84144,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Bulls Victory Tour '95-96: Win",
@@ -3737,7 +5239,9 @@
     "Card Number": "41 #25",
     "product-name": "Bulls Victory Tour '95-96: Win #41 #25",
     "Item #": 340,
-    "id": 5960361
+    "id": 5960361,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cade Cunningham",
@@ -3747,7 +5251,9 @@
     "Card Number": "88",
     "product-name": "Cade Cunningham [Refractor] #88",
     "Item #": 235,
-    "id": 11474841
+    "id": 11474841,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cade Cunningham",
@@ -3757,7 +5263,9 @@
     "Card Number": "22",
     "product-name": "Cade Cunningham #22",
     "Item #": 328,
-    "id": 3782640
+    "id": 3782640,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cameron Johnson",
@@ -3767,7 +5275,9 @@
     "Card Number": "210",
     "product-name": "Cameron Johnson #210",
     "Item #": 457,
-    "id": 2879876
+    "id": 2879876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chet Holmgren",
@@ -3777,7 +5287,9 @@
     "Card Number": "18",
     "product-name": "Chet Holmgren #18",
     "Item #": 451,
-    "id": 5475661
+    "id": 5475661,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3787,7 +5299,9 @@
     "Card Number": "9",
     "product-name": "Chris Webber #9",
     "Item #": 206,
-    "id": 3229156
+    "id": 3229156,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3797,7 +5311,9 @@
     "Card Number": "92",
     "product-name": "Chris Webber #92",
     "Item #": 291,
-    "id": 89036
+    "id": 89036,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3807,7 +5323,9 @@
     "Card Number": "75",
     "product-name": "Chris Webber #75",
     "Item #": 513,
-    "id": 6740224
+    "id": 6740224,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3817,7 +5335,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 449,
-    "id": 90696
+    "id": 90696,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3827,7 +5347,9 @@
     "Card Number": "53",
     "product-name": "Chris Webber #53",
     "Item #": 465,
-    "id": 5058426
+    "id": 5058426,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3837,7 +5359,9 @@
     "Card Number": "348",
     "product-name": "Chris Webber #348",
     "Item #": 504,
-    "id": 5670089
+    "id": 5670089,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3847,7 +5371,9 @@
     "Card Number": "252",
     "product-name": "Chris Webber #252",
     "Item #": 517,
-    "id": 80961
+    "id": 80961,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3857,7 +5383,9 @@
     "Card Number": "71",
     "product-name": "Chris Webber #71",
     "Item #": 536,
-    "id": 8306388
+    "id": 8306388,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3867,7 +5395,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 554,
-    "id": 4830876
+    "id": 4830876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3877,7 +5407,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 557,
-    "id": 4830876
+    "id": 4830876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3887,7 +5419,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 558,
-    "id": 4830876
+    "id": 4830876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3897,7 +5431,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 560,
-    "id": 4830876
+    "id": 4830876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3907,7 +5443,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 563,
-    "id": 4830876
+    "id": 4830876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3917,7 +5455,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 565,
-    "id": 4830876
+    "id": 4830876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3927,7 +5467,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 571,
-    "id": 4830876
+    "id": 4830876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3937,7 +5479,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 572,
-    "id": 4830876
+    "id": 4830876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3947,7 +5491,9 @@
     "Card Number": "108",
     "product-name": "Chris Webber #108",
     "Item #": 573,
-    "id": 4830876
+    "id": 4830876,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3957,7 +5503,9 @@
     "Card Number": "135",
     "product-name": "Chris Webber #135",
     "Item #": 593,
-    "id": 87400
+    "id": 87400,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Chris Webber",
@@ -3967,7 +5515,9 @@
     "Card Number": "135",
     "product-name": "Chris Webber #135",
     "Item #": 594,
-    "id": 87400
+    "id": 87400,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Clyde Drexler",
@@ -3977,7 +5527,9 @@
     "Card Number": "15",
     "product-name": "Clyde Drexler #15",
     "Item #": 295,
-    "id": 4830850
+    "id": 4830850,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Clyde Drexler",
@@ -3987,7 +5539,9 @@
     "Card Number": "38",
     "product-name": "Clyde Drexler #38",
     "Item #": 450,
-    "id": 83369
+    "id": 83369,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Clyde Drexler",
@@ -3997,7 +5551,9 @@
     "Card Number": "FB6",
     "product-name": "Clyde Drexler #FB6",
     "Item #": 546,
-    "id": 2532533
+    "id": 2532533,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cobi Jones",
@@ -4007,7 +5563,9 @@
     "Card Number": "11",
     "product-name": "Cobi Jones #11",
     "Item #": 268,
-    "id": 2730130
+    "id": 2730130,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cotie McMahon",
@@ -4017,7 +5575,9 @@
     "Card Number": "BPP-30",
     "product-name": "Cotie McMahon #BPP-30",
     "Item #": 426,
-    "id": 12627605
+    "id": 12627605,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4027,7 +5587,9 @@
     "Card Number": "98",
     "product-name": "Damon Stoudamire #98",
     "Item #": 518,
-    "id": 4125221
+    "id": 4125221,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4037,7 +5599,9 @@
     "Card Number": "98",
     "product-name": "Damon Stoudamire #98",
     "Item #": 519,
-    "id": 4125221
+    "id": 4125221,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4047,7 +5611,9 @@
     "Card Number": "98",
     "product-name": "Damon Stoudamire #98",
     "Item #": 520,
-    "id": 4125221
+    "id": 4125221,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4057,7 +5623,9 @@
     "Card Number": "98",
     "product-name": "Damon Stoudamire #98",
     "Item #": 521,
-    "id": 4125221
+    "id": 4125221,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4067,7 +5635,9 @@
     "Card Number": "98",
     "product-name": "Damon Stoudamire #98",
     "Item #": 522,
-    "id": 4125221
+    "id": 4125221,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4077,7 +5647,9 @@
     "Card Number": "98",
     "product-name": "Damon Stoudamire #98",
     "Item #": 523,
-    "id": 4125221
+    "id": 4125221,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4087,7 +5659,9 @@
     "Card Number": "98",
     "product-name": "Damon Stoudamire #98",
     "Item #": 524,
-    "id": 4125221
+    "id": 4125221,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4097,7 +5671,9 @@
     "Card Number": "98",
     "product-name": "Damon Stoudamire #98",
     "Item #": 525,
-    "id": 4125221
+    "id": 4125221,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4107,7 +5683,9 @@
     "Card Number": "200",
     "product-name": "Damon Stoudamire #200",
     "Item #": 531,
-    "id": 83398
+    "id": 83398,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Damon Stoudamire",
@@ -4117,7 +5695,9 @@
     "Card Number": "120",
     "product-name": "Damon Stoudamire #120",
     "Item #": 552,
-    "id": 87397
+    "id": 87397,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Darrell Armstrong",
@@ -4127,7 +5707,9 @@
     "Card Number": "176",
     "product-name": "Darrell Armstrong #176",
     "Item #": 462,
-    "id": 85693
+    "id": 85693,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "David Robinson",
@@ -4137,7 +5719,9 @@
     "Card Number": "18",
     "product-name": "David Robinson #18",
     "Item #": 375,
-    "id": 4125235
+    "id": 4125235,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dean Palmer",
@@ -4147,7 +5731,9 @@
     "Card Number": "177",
     "product-name": "Dean Palmer #177",
     "Item #": 430,
-    "id": 2245258
+    "id": 2245258,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Delanie Walker",
@@ -4157,7 +5743,9 @@
     "Card Number": "LOG-30",
     "product-name": "Delanie Walker #LOG-30",
     "Item #": 541,
-    "id": 12551745
+    "id": 12551745,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dennis Rodman",
@@ -4167,7 +5755,9 @@
     "Card Number": "90",
     "product-name": "Dennis Rodman #90",
     "Item #": 249,
-    "id": 81490
+    "id": 81490,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dennis Rodman",
@@ -4177,7 +5767,9 @@
     "Card Number": "279",
     "product-name": "Dennis Rodman #279",
     "Item #": 383,
-    "id": 2193671
+    "id": 2193671,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dylan Harper",
@@ -4187,7 +5779,9 @@
     "Card Number": "202",
     "product-name": "Dylan Harper #202",
     "Item #": 406,
-    "id": 10819480
+    "id": 10819480,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dyson Daniels",
@@ -4197,7 +5791,9 @@
     "Card Number": "7",
     "product-name": "Dyson Daniels #7",
     "Item #": 342,
-    "id": 4341158
+    "id": 4341158,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Edmundo",
@@ -4207,7 +5803,9 @@
     "Card Number": "297",
     "product-name": "Edmundo #297",
     "Item #": 271,
-    "id": 11668402
+    "id": 11668402,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Emmitt Smith",
@@ -4217,7 +5815,9 @@
     "Card Number": "685",
     "product-name": "Emmitt Smith #685",
     "Item #": 238,
-    "id": 1105503
+    "id": 1105503,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "George Pickens",
@@ -4227,7 +5827,9 @@
     "Card Number": "80",
     "product-name": "George Pickens #80",
     "Item #": 445,
-    "id": 12522107
+    "id": 12522107,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Giannis Antetokounmpo",
@@ -4237,7 +5839,9 @@
     "Card Number": "53",
     "product-name": "Giannis Antetokounmpo [Green Laser] #53",
     "Item #": 398,
-    "id": 4838082
+    "id": 4838082,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Glenn Robinson",
@@ -4247,7 +5851,9 @@
     "Card Number": "287",
     "product-name": "Glenn Robinson #287",
     "Item #": 329,
-    "id": 2932739
+    "id": 2932739,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Glenn Robinson",
@@ -4257,7 +5863,9 @@
     "Card Number": "281",
     "product-name": "Glenn Robinson #281",
     "Item #": 505,
-    "id": 4948606
+    "id": 4948606,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Heathcliff Slocumb",
@@ -4267,7 +5875,9 @@
     "Card Number": "334",
     "product-name": "Heathcliff Slocumb #334",
     "Item #": 548,
-    "id": 3086925
+    "id": 3086925,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jaden Hardy",
@@ -4277,7 +5887,9 @@
     "Card Number": "21",
     "product-name": "Jaden Hardy [Red] #21",
     "Item #": 307,
-    "id": 6358249
+    "id": 6358249,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jalen Brunson",
@@ -4287,7 +5899,9 @@
     "Card Number": "SH-JB",
     "product-name": "Jalen Brunson #SH-JB",
     "Item #": 327,
-    "id": 11909457
+    "id": 11909457,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jalen Brunson",
@@ -4297,7 +5911,9 @@
     "Card Number": "125",
     "product-name": "Jalen Brunson [Emerald] #125",
     "Item #": 382,
-    "id": 2965943
+    "id": 2965943,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jalen Green",
@@ -4307,7 +5923,9 @@
     "Card Number": "198",
     "product-name": "Jalen Green #198",
     "Item #": 279,
-    "id": 10122340
+    "id": 10122340,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jamal Murray",
@@ -4317,7 +5935,9 @@
     "Card Number": "9",
     "product-name": "Jamal Murray #9",
     "Item #": 394,
-    "id": 5178537
+    "id": 5178537,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jaren Jackson Jr.",
@@ -4327,7 +5947,9 @@
     "Card Number": "13",
     "product-name": "Jaren Jackson Jr. #13",
     "Item #": 529,
-    "id": 2856356
+    "id": 2856356,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Kidd",
@@ -4337,7 +5959,9 @@
     "Card Number": "66",
     "product-name": "Jason Kidd #66",
     "Item #": 343,
-    "id": 92995
+    "id": 92995,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Kidd",
@@ -4347,7 +5971,9 @@
     "Card Number": "408",
     "product-name": "Jason Kidd #408",
     "Item #": 493,
-    "id": 81386
+    "id": 81386,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jason Kidd Single",
@@ -4357,7 +5983,9 @@
     "Card Number": "68",
     "product-name": "Jason Kidd Single #68",
     "Item #": 431,
-    "id": 94053
+    "id": 94053,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jaylen Brown",
@@ -4367,7 +5995,9 @@
     "Card Number": "227",
     "product-name": "Jaylen Brown #227",
     "Item #": 510,
-    "id": 10122547
+    "id": 10122547,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jaylen Brown",
@@ -4377,7 +6007,9 @@
     "Card Number": "206",
     "product-name": "Jaylen Brown [Purple] #206",
     "Item #": 537,
-    "id": 10198347
+    "id": 10198347,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jerry Rice",
@@ -4387,7 +6019,9 @@
     "Card Number": "23",
     "product-name": "Jerry Rice #23",
     "Item #": 385,
-    "id": 1105658
+    "id": 1105658,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jerry Stackhouse",
@@ -4397,7 +6031,9 @@
     "Card Number": "133",
     "product-name": "Jerry Stackhouse #133",
     "Item #": 464,
-    "id": 83766
+    "id": 83766,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jerry Stackhouse",
@@ -4407,7 +6043,9 @@
     "Card Number": "133",
     "product-name": "Jerry Stackhouse #133",
     "Item #": 466,
-    "id": 83766
+    "id": 83766,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "JT Toppin",
@@ -4417,7 +6055,9 @@
     "Card Number": "BPP-93",
     "product-name": "JT Toppin #BPP-93",
     "Item #": 331,
-    "id": 12628486
+    "id": 12628486,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "JT Toppin",
@@ -4427,7 +6067,9 @@
     "Card Number": "BV-15",
     "product-name": "JT Toppin #BV-15",
     "Item #": 540,
-    "id": 12642248
+    "id": 12642248,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Katie Lou Samuelson",
@@ -4437,7 +6079,9 @@
     "Card Number": "82",
     "product-name": "Katie Lou Samuelson #82",
     "Item #": 413,
-    "id": 11741779
+    "id": 11741779,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Keith Van Horn",
@@ -4447,7 +6091,9 @@
     "Card Number": "80",
     "product-name": "Keith Van Horn #80",
     "Item #": 345,
-    "id": 89029
+    "id": 89029,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kevin Morton",
@@ -4457,7 +6103,9 @@
     "Card Number": "330",
     "product-name": "Kevin Morton #330",
     "Item #": 507,
-    "id": 3102405
+    "id": 3102405,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kyrie Irving",
@@ -4467,7 +6115,9 @@
     "Card Number": "8",
     "product-name": "Kyrie Irving [Holo] #8",
     "Item #": 272,
-    "id": 3834726
+    "id": 3834726,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kyrie Irving",
@@ -4477,7 +6127,9 @@
     "Card Number": "100C-KI",
     "product-name": "Kyrie Irving #100C-KI",
     "Item #": 404,
-    "id": 11830171
+    "id": 11830171,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kyrie Irving",
@@ -4487,7 +6139,9 @@
     "Card Number": "22",
     "product-name": "Kyrie Irving [Orange Ice] #22",
     "Item #": 348,
-    "id": 6355545
+    "id": 6355545,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kyrie Irving",
@@ -4497,7 +6151,9 @@
     "Card Number": "63",
     "product-name": "Kyrie Irving #63",
     "Item #": 486,
-    "id": 4343792
+    "id": 4343792,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kyrie Irving",
@@ -4507,7 +6163,9 @@
     "Card Number": "130",
     "product-name": "Kyrie Irving [Blue Ice] #130",
     "Item #": 534,
-    "id": 5468137
+    "id": 5468137,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kyrie Irving / Luka Doncic",
@@ -4517,7 +6175,9 @@
     "Card Number": "4",
     "product-name": "Kyrie Irving / Luka Doncic #4",
     "Item #": 293,
-    "id": 6835303
+    "id": 6835303,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Larry Bird",
@@ -4527,7 +6187,9 @@
     "Card Number": "52",
     "product-name": "Larry Bird #52",
     "Item #": 324,
-    "id": 78022
+    "id": 78022,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Larry Bird",
@@ -4537,7 +6199,9 @@
     "Card Number": "12",
     "product-name": "Larry Bird #12",
     "Item #": 313,
-    "id": 154457
+    "id": 154457,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Latrell Sprewell",
@@ -4547,27 +6211,33 @@
     "Card Number": "8",
     "product-name": "Latrell Sprewell #8",
     "Item #": 582,
-    "id": 4643480
+    "id": 4643480,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
-    "Player": "Luka DoncÌŒic",
+    "Player": "Luka Donc\u00cc\u0152ic",
     "Set": "2025 Bowman Chrome",
     "Variant": "-",
     "Value": 1.99,
     "Card Number": "BCV-123",
-    "product-name": "Luka DoncÌŒic #BCV-123",
+    "product-name": "Luka Donc\u00cc\u0152ic #BCV-123",
     "Item #": 269,
-    "id": 12622531
+    "id": 12622531,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
-    "Player": "Luka DoncÌŒic",
+    "Player": "Luka Donc\u00cc\u0152ic",
     "Set": "2025 Bowman Chrome",
     "Variant": "-",
     "Value": 1.99,
     "Card Number": "BCV-123",
-    "product-name": "Luka DoncÌŒic #BCV-123",
+    "product-name": "Luka Donc\u00cc\u0152ic #BCV-123",
     "Item #": 277,
-    "id": 12622531
+    "id": 12622531,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Magic Johnson",
@@ -4577,7 +6247,9 @@
     "Card Number": "32",
     "product-name": "Magic Johnson #32",
     "Item #": 346,
-    "id": 78605
+    "id": 78605,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Marcelo Balboa",
@@ -4587,7 +6259,9 @@
     "Card Number": "3",
     "product-name": "Marcelo Balboa #3",
     "Item #": 264,
-    "id": 7641293
+    "id": 7641293,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Marcus Camby",
@@ -4597,7 +6271,9 @@
     "Card Number": "C26",
     "product-name": "Marcus Camby #C26",
     "Item #": 258,
-    "id": 7978663
+    "id": 7978663,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Marcus Camby",
@@ -4607,7 +6283,9 @@
     "Card Number": "6",
     "product-name": "Marcus Camby #6",
     "Item #": 364,
-    "id": 7323906
+    "id": 7323906,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Marcus Camby",
@@ -4617,7 +6295,9 @@
     "Card Number": "253",
     "product-name": "Marcus Camby #253",
     "Item #": 389,
-    "id": 8212141
+    "id": 8212141,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Maurice Taylor",
@@ -4627,7 +6307,9 @@
     "Card Number": "R14",
     "product-name": "Maurice Taylor #R14",
     "Item #": 545,
-    "id": 2336254
+    "id": 2336254,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Maxime Raynaud",
@@ -4637,7 +6319,9 @@
     "Card Number": "293",
     "product-name": "Maxime Raynaud #293",
     "Item #": 532,
-    "id": 11486782
+    "id": 11486782,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Finley",
@@ -4647,7 +6331,9 @@
     "Card Number": "180",
     "product-name": "Michael Finley #180",
     "Item #": 446,
-    "id": 83394
+    "id": 83394,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Finley",
@@ -4657,7 +6343,9 @@
     "Card Number": "180",
     "product-name": "Michael Finley #180",
     "Item #": 447,
-    "id": 83394
+    "id": 83394,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Michael Finley",
@@ -4667,7 +6355,9 @@
     "Card Number": "180",
     "product-name": "Michael Finley #180",
     "Item #": 452,
-    "id": 83394
+    "id": 83394,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Mike Bibby",
@@ -4677,7 +6367,9 @@
     "Card Number": "196",
     "product-name": "Mike Bibby #196",
     "Item #": 463,
-    "id": 93419
+    "id": 93419,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Mike Bibby",
@@ -4687,7 +6379,9 @@
     "Card Number": "195",
     "product-name": "Mike Bibby #195",
     "Item #": 578,
-    "id": 93331
+    "id": 93331,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Pat Lennon",
@@ -4697,7 +6391,9 @@
     "Card Number": "17",
     "product-name": "Pat Lennon #17",
     "Item #": 544,
-    "id": 3102440
+    "id": 3102440,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Punisher 2099",
@@ -4707,7 +6403,9 @@
     "Card Number": "101",
     "product-name": "Punisher 2099 #101",
     "Item #": 376,
-    "id": 5079396
+    "id": 5079396,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Rasheed Wallace",
@@ -4717,7 +6415,9 @@
     "Card Number": "134",
     "product-name": "Rasheed Wallace #134",
     "Item #": 410,
-    "id": 83768
+    "id": 83768,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Rasheed Wallace",
@@ -4727,7 +6427,9 @@
     "Card Number": "134",
     "product-name": "Rasheed Wallace #134",
     "Item #": 412,
-    "id": 83768
+    "id": 83768,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Rasheed Wallace",
@@ -4737,7 +6439,9 @@
     "Card Number": "208",
     "product-name": "Rasheed Wallace #208",
     "Item #": 476,
-    "id": 83399
+    "id": 83399,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Rasheed Wallace",
@@ -4747,7 +6451,9 @@
     "Card Number": "208",
     "product-name": "Rasheed Wallace #208",
     "Item #": 477,
-    "id": 83399
+    "id": 83399,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Rasheed Wallace",
@@ -4757,7 +6463,9 @@
     "Card Number": "208",
     "product-name": "Rasheed Wallace #208",
     "Item #": 480,
-    "id": 83399
+    "id": 83399,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Ray Allen",
@@ -4767,7 +6475,9 @@
     "Card Number": "136",
     "product-name": "Ray Allen #136",
     "Item #": 280,
-    "id": 85400
+    "id": 85400,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Reed Sheppard",
@@ -4777,7 +6487,9 @@
     "Card Number": "68",
     "product-name": "Reed Sheppard [Blue Cracked Ice Prizm] #68",
     "Item #": 298,
-    "id": 9782911
+    "id": 9782911,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Reed Sheppard",
@@ -4787,7 +6499,9 @@
     "Card Number": "135",
     "product-name": "Reed Sheppard #135",
     "Item #": 569,
-    "id": 12615114
+    "id": 12615114,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Robert Parish",
@@ -4797,7 +6511,9 @@
     "Card Number": "140",
     "product-name": "Robert Parish #140",
     "Item #": 310,
-    "id": 8151713
+    "id": 8151713,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Ruben Patterson",
@@ -4807,7 +6523,9 @@
     "Card Number": "115",
     "product-name": "Ruben Patterson #115",
     "Item #": 483,
-    "id": 94132
+    "id": 94132,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Ryan Giggs",
@@ -4817,7 +6535,9 @@
     "Card Number": "282",
     "product-name": "Ryan Giggs #282",
     "Item #": 330,
-    "id": 2730182
+    "id": 2730182,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous Alexander",
@@ -4827,7 +6547,9 @@
     "Card Number": "147",
     "product-name": "Shai Gilgeous Alexander [Holo] #147",
     "Item #": 247,
-    "id": 4110760
+    "id": 4110760,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous Alexander",
@@ -4837,7 +6559,9 @@
     "Card Number": "43",
     "product-name": "Shai Gilgeous Alexander [Silver] #43",
     "Item #": 239,
-    "id": 4815724
+    "id": 4815724,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shai Gilgeous Alexander",
@@ -4847,7 +6571,9 @@
     "Card Number": "238",
     "product-name": "Shai Gilgeous Alexander #238",
     "Item #": 363,
-    "id": 3727518
+    "id": 3727518,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shareef Abdur-Rahim",
@@ -4857,7 +6583,9 @@
     "Card Number": "1",
     "product-name": "Shareef Abdur-Rahim #1",
     "Item #": 203,
-    "id": 11673540
+    "id": 11673540,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shareef Abdur-Rahim",
@@ -4867,7 +6595,9 @@
     "Card Number": "135",
     "product-name": "Shareef Abdur-Rahim #135",
     "Item #": 562,
-    "id": 2368478
+    "id": 2368478,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shareef Abdur-Rahim",
@@ -4877,7 +6607,9 @@
     "Card Number": "135",
     "product-name": "Shareef Abdur-Rahim #135",
     "Item #": 564,
-    "id": 2368478
+    "id": 2368478,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shareef Abdur-Rahim",
@@ -4887,7 +6619,9 @@
     "Card Number": "135",
     "product-name": "Shareef Abdur-Rahim #135",
     "Item #": 568,
-    "id": 2368478
+    "id": 2368478,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shareef Abdur-Rahim",
@@ -4897,7 +6631,9 @@
     "Card Number": "122",
     "product-name": "Shareef Abdur-Rahim #122",
     "Item #": 585,
-    "id": 8306999
+    "id": 8306999,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shareef Abdur-Rahim",
@@ -4907,7 +6643,9 @@
     "Card Number": "122",
     "product-name": "Shareef Abdur-Rahim #122",
     "Item #": 586,
-    "id": 8306999
+    "id": 8306999,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shawn Kemp",
@@ -4917,7 +6655,9 @@
     "Card Number": "CU5",
     "product-name": "Shawn Kemp #CU5",
     "Item #": 136,
-    "id": 6663973
+    "id": 6663973,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shawn Kemp",
@@ -4927,7 +6667,9 @@
     "Card Number": "279",
     "product-name": "Shawn Kemp #279",
     "Item #": 461,
-    "id": 77646
+    "id": 77646,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Shohei Ohtani",
@@ -4937,7 +6679,9 @@
     "Card Number": "200",
     "product-name": "Shohei Ohtani #200",
     "Item #": 288,
-    "id": 11881353
+    "id": 11881353,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephen Curry",
@@ -4947,7 +6691,9 @@
     "Card Number": "13",
     "product-name": "Stephen Curry [Holo] #13",
     "Item #": 278,
-    "id": 10210235
+    "id": 10210235,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephen Curry",
@@ -4957,7 +6703,9 @@
     "Card Number": "7",
     "product-name": "Stephen Curry [Blue] #7",
     "Item #": 543,
-    "id": 9778659
+    "id": 9778659,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephen Curry",
@@ -4967,7 +6715,9 @@
     "Card Number": "98",
     "product-name": "Stephen Curry #98",
     "Item #": 325,
-    "id": 95756
+    "id": 95756,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephen Curry",
@@ -4977,7 +6727,9 @@
     "Card Number": "3",
     "product-name": "Stephen Curry #3",
     "Item #": 377,
-    "id": 9265999
+    "id": 9265999,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephen Curry",
@@ -4987,7 +6739,9 @@
     "Card Number": "163",
     "product-name": "Stephen Curry #163",
     "Item #": 322,
-    "id": 9943175
+    "id": 9943175,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Stephen Curry",
@@ -4997,7 +6751,9 @@
     "Card Number": "BD-9",
     "product-name": "Stephen Curry #BD-9",
     "Item #": 337,
-    "id": 11497213
+    "id": 11497213,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Steve Francis",
@@ -5007,7 +6763,9 @@
     "Card Number": "118",
     "product-name": "Steve Francis #118",
     "Item #": 471,
-    "id": 2973499
+    "id": 2973499,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tab Ramos",
@@ -5017,7 +6775,9 @@
     "Card Number": "9",
     "product-name": "Tab Ramos #9",
     "Item #": 265,
-    "id": 7641308
+    "id": 7641308,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Terrence Shannon Jr.",
@@ -5027,7 +6787,9 @@
     "Card Number": "224",
     "product-name": "Terrence Shannon Jr. [Pink Ice] #224",
     "Item #": 308,
-    "id": 8555315
+    "id": 8555315,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Thomas Sorber",
@@ -5037,7 +6799,9 @@
     "Card Number": "15",
     "product-name": "Thomas Sorber #15",
     "Item #": 538,
-    "id": 12102811
+    "id": 12102811,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tim Thomas",
@@ -5047,7 +6811,9 @@
     "Card Number": "10",
     "product-name": "Tim Thomas #10",
     "Item #": 300,
-    "id": 12986613
+    "id": 12986613,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tim Thomas",
@@ -5057,7 +6823,9 @@
     "Card Number": "10",
     "product-name": "Tim Thomas #10",
     "Item #": 303,
-    "id": 12986613
+    "id": 12986613,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tim Thomas",
@@ -5067,7 +6835,9 @@
     "Card Number": "13",
     "product-name": "Tim Thomas #13",
     "Item #": 583,
-    "id": 6654217
+    "id": 6654217,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tracy McGrady",
@@ -5077,7 +6847,9 @@
     "Card Number": "82",
     "product-name": "Tracy McGrady #82",
     "Item #": 453,
-    "id": 93011
+    "id": 93011,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tracy McGrady",
@@ -5087,7 +6859,9 @@
     "Card Number": "82",
     "product-name": "Tracy McGrady #82",
     "Item #": 428,
-    "id": 94061
+    "id": 94061,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "VJ Edgecombe",
@@ -5097,7 +6871,9 @@
     "Card Number": "H163",
     "product-name": "VJ Edgecombe #H163",
     "Item #": 478,
-    "id": 10895833
+    "id": 10895833,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Caris LeVert",
@@ -5107,7 +6883,9 @@
     "Card Number": "155",
     "product-name": "Caris LeVert [Orange] #155",
     "Item #": 591,
-    "id": 10122040
+    "id": 10122040,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cole Anthony",
@@ -5117,7 +6895,9 @@
     "Card Number": "56",
     "product-name": "Cole Anthony [Avalanche] #56",
     "Item #": 459,
-    "id": 7798609
+    "id": 7798609,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Cole Anthony",
@@ -5127,7 +6907,9 @@
     "Card Number": "91",
     "product-name": "Cole Anthony #91",
     "Item #": 581,
-    "id": 10818843
+    "id": 10818843,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Craig Lefferts",
@@ -5137,7 +6919,9 @@
     "Card Number": "162",
     "product-name": "Craig Lefferts #162",
     "Item #": 589,
-    "id": 3226146
+    "id": 3226146,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dalton Schultz",
@@ -5147,7 +6931,9 @@
     "Card Number": "118",
     "product-name": "Dalton Schultz #118",
     "Item #": 580,
-    "id": 12523724
+    "id": 12523724,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Dereck Lively II",
@@ -5157,7 +6943,9 @@
     "Card Number": "26",
     "product-name": "Dereck Lively II [Green White Purple Prizm] #26",
     "Item #": 556,
-    "id": 9779919
+    "id": 9779919,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Eddie Jones",
@@ -5167,7 +6955,9 @@
     "Card Number": "4",
     "product-name": "Eddie Jones #4",
     "Item #": 511,
-    "id": 5157791
+    "id": 5157791,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Italy",
@@ -5177,7 +6967,9 @@
     "Card Number": "320",
     "product-name": "Italy #320",
     "Item #": 601,
-    "id": 11105434
+    "id": 11105434,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "John Doyle",
@@ -5187,7 +6979,9 @@
     "Card Number": "5",
     "product-name": "John Doyle #5",
     "Item #": 555,
-    "id": 7641295
+    "id": 7641295,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Jrue Holiday",
@@ -5197,7 +6991,9 @@
     "Card Number": "200",
     "product-name": "Jrue Holiday [Blue] #200",
     "Item #": 575,
-    "id": 6060362
+    "id": 6060362,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Kyle Pitts",
@@ -5207,7 +7003,9 @@
     "Card Number": "14",
     "product-name": "Kyle Pitts #14",
     "Item #": 579,
-    "id": 12518888
+    "id": 12518888,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nolan Ryan",
@@ -5217,7 +7015,9 @@
     "Card Number": "21",
     "product-name": "Nolan Ryan #21",
     "Item #": 470,
-    "id": 8312191
+    "id": 8312191,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Nolan Ryan",
@@ -5227,7 +7027,9 @@
     "Card Number": "6",
     "product-name": "Nolan Ryan [Fitted for a Halo] #6",
     "Item #": 588,
-    "id": 6329652
+    "id": 6329652,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tidjane Salaun",
@@ -5237,7 +7039,9 @@
     "Card Number": "71",
     "product-name": "Tidjane Salaun #71",
     "Item #": 567,
-    "id": 10818673
+    "id": 10818673,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Tim Teufel",
@@ -5247,7 +7051,9 @@
     "Card Number": "171",
     "product-name": "Tim Teufel #171",
     "Item #": 592,
-    "id": 2245299
+    "id": 2245299,
+    "Status": "For Sale",
+    "Sale Price": null
   },
   {
     "Player": "Zetti",
@@ -5257,6 +7063,8 @@
     "Card Number": "83",
     "product-name": "Zetti #83",
     "Item #": 590,
-    "id": 10024601
+    "id": 10024601,
+    "Status": "For Sale",
+    "Sale Price": null
   }
 ]
