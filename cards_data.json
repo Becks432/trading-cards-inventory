@@ -3394,7 +3394,7 @@
     "Set": "1997 Skybox Reebok Allen Iverson",
     "Variant": "-",
     "Value": 2.34,
-    "Card Number": NaN,
+    "Card Number": null,
     "product-name": "Allen iverson",
     "Item #": 217,
     "id": 2988190,
@@ -5239,7 +5239,7 @@
     "Set": "Marvel 1994 Flair",
     "Variant": "Part III",
     "Value": 2.99,
-    "Card Number": NaN,
+    "Card Number": null,
     "product-name": "Spider-Demon [Part III]",
     "Item #": 183,
     "id": 5079441,
@@ -8454,9 +8454,9 @@
     "Item #": 105,
     "id": 7094582,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 1.0
   },
   {
@@ -8469,9 +8469,9 @@
     "Item #": 103,
     "id": 11909415,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 2.0
   },
   {
@@ -8484,9 +8484,9 @@
     "Item #": 100,
     "id": 11909415,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 2.0
   },
   {
@@ -8499,9 +8499,9 @@
     "Item #": 101,
     "id": 11830213,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 2.0
   },
   {
@@ -8514,9 +8514,9 @@
     "Item #": 104,
     "id": 6857907,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 13.0
   },
   {
@@ -8529,9 +8529,9 @@
     "Item #": 102,
     "id": 6422089,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 10.0
   },
   {
@@ -8544,9 +8544,9 @@
     "Item #": 108,
     "id": 6059255,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -8559,9 +8559,9 @@
     "Item #": 107,
     "id": 6059234,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -8574,9 +8574,9 @@
     "Item #": 56,
     "id": 2755758,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 1.0
   },
   {
@@ -8589,9 +8589,9 @@
     "Item #": 45837587,
     "id": 113596,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 42.0
   },
   {
@@ -8604,9 +8604,9 @@
     "Item #": 88,
     "id": 85449,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -8619,9 +8619,9 @@
     "Item #": 89,
     "id": 87381,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -8634,9 +8634,9 @@
     "Item #": 97,
     "id": 85372,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 39.0
   },
   {
@@ -8649,9 +8649,9 @@
     "Item #": 87,
     "id": 85372,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 39.0
   },
   {
@@ -8664,9 +8664,9 @@
     "Item #": 85,
     "id": 85401,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -8679,9 +8679,9 @@
     "Item #": 94,
     "id": 85401,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -8694,9 +8694,9 @@
     "Item #": 95,
     "id": 85401,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -8709,9 +8709,9 @@
     "Item #": 81,
     "id": 89006,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 173.0
   },
   {
@@ -8724,9 +8724,9 @@
     "Item #": 96,
     "id": 89006,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 173.0
   },
   {
@@ -8739,9 +8739,9 @@
     "Item #": 93,
     "id": 84113,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -8754,9 +8754,9 @@
     "Item #": 99,
     "id": 7148998,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 39.0
   },
   {
@@ -8769,9 +8769,9 @@
     "Item #": 82,
     "id": 85396,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -8784,9 +8784,9 @@
     "Item #": 86,
     "id": 85396,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -8799,9 +8799,9 @@
     "Item #": 91,
     "id": 4732090,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 31.0
   },
   {
@@ -8814,9 +8814,9 @@
     "Item #": 45718822,
     "id": 108730,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 31.0
   },
   {
@@ -8829,9 +8829,9 @@
     "Item #": 92,
     "id": 83402,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -8844,9 +8844,9 @@
     "Item #": 98,
     "id": 108730,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 39.0
   },
   {
@@ -8859,9 +8859,9 @@
     "Item #": 84,
     "id": 93958,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -8874,9 +8874,9 @@
     "Item #": 80,
     "id": 94017,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 16.0
   },
   {
@@ -8889,9 +8889,9 @@
     "Item #": 83,
     "id": 9778816,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 50.0
   },
   {
@@ -8904,9 +8904,9 @@
     "Item #": 90,
     "id": 12415755,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -8919,9 +8919,9 @@
     "Item #": 79,
     "id": 12613839,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -8934,9 +8934,9 @@
     "Item #": 106,
     "id": 94023,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 12.0
   },
   {
@@ -8949,9 +8949,9 @@
     "Item #": 66,
     "id": 145531,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 12.0
   },
   {
@@ -8964,9 +8964,9 @@
     "Item #": 67,
     "id": 11830197,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 8.0
   },
   {
@@ -8979,9 +8979,9 @@
     "Item #": 68,
     "id": 11830197,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 8.0
   },
   {
@@ -8994,9 +8994,9 @@
     "Item #": 60,
     "id": 87406,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 4.0
   },
   {
@@ -9009,9 +9009,9 @@
     "Item #": 63,
     "id": 87406,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 4.0
   },
   {
@@ -9024,9 +9024,9 @@
     "Item #": 77,
     "id": 87406,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 4.0
   },
   {
@@ -9039,9 +9039,9 @@
     "Item #": 55,
     "id": 10826665,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 2.0
   },
   {
@@ -9054,9 +9054,9 @@
     "Item #": 54,
     "id": 93981,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9069,9 +9069,9 @@
     "Item #": 53,
     "id": 93989,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9084,9 +9084,9 @@
     "Item #": 74,
     "id": 93985,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9099,9 +9099,9 @@
     "Item #": 78,
     "id": 93964,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9114,9 +9114,9 @@
     "Item #": 70,
     "id": 93952,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9129,9 +9129,9 @@
     "Item #": 65,
     "id": 93968,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9144,9 +9144,9 @@
     "Item #": 69,
     "id": 93972,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9159,9 +9159,9 @@
     "Item #": 61,
     "id": 5134024,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9174,9 +9174,9 @@
     "Item #": 57,
     "id": 93956,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9189,9 +9189,9 @@
     "Item #": 59,
     "id": 93960,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9204,9 +9204,9 @@
     "Item #": 71,
     "id": 93948,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9219,9 +9219,9 @@
     "Item #": 75,
     "id": 93948,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9234,9 +9234,9 @@
     "Item #": 64,
     "id": 5885939,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9249,9 +9249,9 @@
     "Item #": 62,
     "id": 2263350,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 12.0
   },
   {
@@ -9264,9 +9264,9 @@
     "Item #": 76,
     "id": 87401,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9279,9 +9279,9 @@
     "Item #": 72,
     "id": 85723,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9294,9 +9294,9 @@
     "Item #": 73,
     "id": 8800692,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9309,9 +9309,9 @@
     "Item #": 58,
     "id": 11909462,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 4.0
   },
   {
@@ -9324,9 +9324,9 @@
     "Item #": 51,
     "id": 11484449,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 20.0
   },
   {
@@ -9339,9 +9339,9 @@
     "Item #": 52,
     "id": 11909415,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 10.0
   },
   {
@@ -9354,9 +9354,9 @@
     "Item #": 39,
     "id": 11909415,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 0.0
   },
   {
@@ -9369,9 +9369,9 @@
     "Item #": 15,
     "id": 11484449,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 0.0
   },
   {
@@ -9384,9 +9384,9 @@
     "Item #": 415,
     "id": 8771795,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 0.0
   }
 ]
