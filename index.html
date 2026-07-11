@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="light" data-view-mode="desktop">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -111,6 +111,7 @@
       padding: var(--space-4) var(--space-5);
       z-index: 40;
       flex-wrap: wrap;
+      position: relative;
     }
 
     .header-left,
@@ -134,17 +135,37 @@
     .header-right {
       flex: 0 1 auto;
       justify-content: flex-end;
+      position: relative;
     }
 
     .filters {
-      top: var(--header-h);
+      position: relative;
       min-height: var(--filters-h);
       padding: var(--space-4) var(--space-5);
       z-index: 38;
+      transition: min-height var(--transition);
+    }
+
+    .filters.collapsed {
+      min-height: auto;
+    }
+
+    .filters.collapsed .filters-grid {
+      display: none;
+    }
+
+    .filters.collapsed .clear-filters-row {
+      display: none;
+    }
+
+    .clear-filters-row {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: var(--space-3);
     }
 
     .carousel-wrap {
-      top: calc(var(--header-h) + var(--filters-h));
+      position: relative;
       min-height: var(--carousel-h);
       padding: var(--space-3) var(--space-5) var(--space-4);
       transition: min-height var(--transition);
@@ -159,7 +180,7 @@
     .logo { width: 34px; height: 34px; color: var(--color-primary); }
     .title { font-size: var(--text-xl); font-weight: 700; letter-spacing: -.03em; }
 
-    .theme-btn, .cart-btn, .nav-btn, .action-btn, .secondary-btn, .danger-btn, .toggle-btn {
+    .theme-btn, .cart-btn, .nav-btn, .action-btn, .secondary-btn, .danger-btn, .toggle-btn, .marquee-btn, .view-mode-btn, .hamburger-btn {
       min-height: 44px;
       border-radius: var(--radius-full);
       border: 1px solid var(--color-border);
@@ -169,7 +190,7 @@
       transition: all var(--transition);
     }
 
-    .theme-btn {
+    .theme-btn, .view-mode-btn {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -177,25 +198,30 @@
       min-width: 108px;
     }
 
-    .theme-btn svg {
+    .theme-btn svg, .view-mode-btn svg {
       width: 18px;
       height: 18px;
       flex: 0 0 auto;
     }
 
-    .cart-btn, .action-btn {
+    .cart-btn, .action-btn, .marquee-btn {
       background: var(--color-primary);
       color: #fff;
       border-color: transparent;
     }
 
-    .cart-btn:hover, .action-btn:hover { background: var(--color-primary-hover); }
-    .secondary-btn:hover, .theme-btn:hover, .nav-btn:hover, .danger-btn:hover, .toggle-btn:hover { background: var(--color-surface-offset); }
+    .cart-btn:hover, .action-btn:hover, .marquee-btn:hover { background: var(--color-primary-hover); }
+    .secondary-btn:hover, .theme-btn:hover, .nav-btn:hover, .danger-btn:hover, .toggle-btn:hover, .view-mode-btn:hover, .hamburger-btn:hover { background: var(--color-surface-offset); }
     .danger-btn { background: color-mix(in srgb, var(--color-error) 10%, var(--color-surface-2)); }
 
     .header-center .nav-btn {
       min-width: 130px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: .4rem;
     }
+    .nav-btn svg { width: 16px; height: 16px; flex: 0 0 auto; }
 
     .filters-grid {
       display: grid;
@@ -245,11 +271,22 @@
       flex-wrap: wrap;
     }
 
+    .filters-row-left {
+      display: flex;
+      align-items: center;
+      gap: var(--space-3);
+      flex-wrap: wrap;
+    }
+
     .filter-actions {
       display: flex;
       gap: var(--space-3);
       align-items: center;
       flex-wrap: wrap;
+    }
+
+    #statusChip.filters-status-chip {
+      display: none;
     }
 
     .status-chip {
@@ -325,360 +362,411 @@
       max-height: 145px;
     }
 
-    .carousel-image img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      max-width: 100%;
-      max-height: 100%;
-      width: auto;
-      height: auto;
-      transform: translate(-50%, -50%);
-      object-fit: contain;
-      object-position: center;
-      margin: 0;
-      transition: transform var(--transition);
-    }
-
-    .carousel-card:hover img {
-      transform: translate(-50%, -50%) scale(1.05);
-    }
+    .carousel-image img { width: 100%; height: 100%; object-fit: cover; }
 
     .carousel-meta {
+      font-size: var(--text-xs);
       padding: var(--space-2);
-      font-size: .7rem;
-      line-height: 1.2;
-      color: var(--color-text);
-      text-align: center;
-      font-weight: 700;
+      line-height: 1.3;
     }
 
-    .inventory {
-      min-height: 0;
-      padding: var(--space-4) var(--space-5);
-      display: grid;
-      gap: var(--space-3);
+    .empty {
+      padding: var(--space-4);
+      color: var(--color-text-muted);
+      text-align: center;
     }
+
+    .inventory { padding: var(--space-5); }
 
     .inventory-head {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: var(--space-3);
+      margin-bottom: var(--space-4);
       flex-wrap: wrap;
     }
 
-    .count { font-weight: 700; text-align: right; }
+    .count { color: var(--color-text-muted); font-size: var(--text-sm); }
 
     .table-shell {
-      background: var(--color-surface);
       border: 1px solid var(--color-border);
-      border-radius: var(--radius-xl);
+      border-radius: var(--radius-lg);
       overflow: hidden;
-      box-shadow: var(--shadow-sm);
-      display: grid;
-      grid-template-rows: auto 1fr;
-      min-height: 0;
+      background: var(--color-surface);
     }
 
     .table-head, .table-row {
       display: grid;
+      gap: var(--space-2);
       align-items: center;
-      gap: var(--space-3);
-      padding: .85rem 1rem;
+      padding: var(--space-3) var(--space-4);
     }
 
-    .for-sale-cols { grid-template-columns: 46px 96px minmax(150px,1.15fr) minmax(170px,1.1fr) minmax(150px,1fr) 100px 100px; }
-    .sold-cols { grid-template-columns: 46px 96px minmax(150px,1.1fr) minmax(170px,1.1fr) minmax(150px,1fr) 100px 100px 110px; }
+    .table-head.for-sale-cols, .table-row.for-sale-cols {
+      grid-template-columns: 40px 90px 1.4fr 1.2fr 1fr 100px 110px;
+    }
+
+    .table-head.sold-cols, .table-row.sold-cols {
+      grid-template-columns: 40px 90px 1.4fr 1.2fr 1fr 100px 100px 110px;
+    }
 
     .table-head {
+      background: var(--color-surface-offset);
+      font-size: var(--text-xs);
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      color: var(--color-text-muted);
       position: sticky;
       top: 0;
-      z-index: 3;
-      background: var(--color-surface-2);
-      border-bottom: 1px solid var(--color-divider);
-      font-size: var(--text-sm);
-      font-weight: 700;
     }
 
-    .table-body {
-      overflow: auto;
-      max-height: calc(100dvh - var(--header-h) - var(--filters-h) - var(--carousel-h) - 10rem);
-    }
-
-    .table-body.carousel-collapsed {
-      max-height: calc(100dvh - var(--header-h) - var(--filters-h) - var(--carousel-collapsed-h) - 10rem);
-    }
-
-    .table-row {
-      border-bottom: 1px solid var(--color-divider);
-      background: var(--color-surface);
-    }
-
-    .table-row:hover {
-      background: color-mix(in srgb, var(--color-primary) 4%, var(--color-surface));
-    }
-
-    .table-row:last-child { border-bottom: 0; }
-
-    .sortable {
+    .table-head button.sortable {
       background: none;
       border: 0;
+      color: inherit;
+      font: inherit;
+      text-transform: uppercase;
+      letter-spacing: .05em;
       padding: 0;
       display: inline-flex;
-      gap: .35rem;
       align-items: center;
-      font-weight: 700;
-      color: inherit;
+      gap: .3rem;
     }
 
-    .sort-ind { color: var(--color-text-faint); font-size: .85em; }
-    .mono { font-variant-numeric: tabular-nums lining-nums; }
-    .muted { color: var(--color-text-muted); }
+    .table-head button.sortable:hover { color: var(--color-text); }
+    .sort-ind { font-size: .7rem; opacity: .6; }
+
+    .table-body { max-height: 55vh; overflow-y: auto; }
+    .table-body.carousel-collapsed { max-height: 65vh; }
+
+    .table-row { border-top: 1px solid var(--color-divider); font-size: var(--text-sm); }
+    .table-row:hover { background: var(--color-surface-2); }
+    .mono { font-family: 'Satoshi', monospace; }
+
     .checkbox { width: 18px; height: 18px; }
 
     .modal-backdrop {
-      position: fixed;
-      inset: 0;
-      background: rgba(18,18,18,.48);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      padding: var(--space-4);
-      z-index: 100;
+      position: fixed; inset: 0; background: rgba(0,0,0,.5);
+      display: none; align-items: center; justify-content: center;
+      z-index: 100; padding: var(--space-4);
     }
-
     .modal-backdrop.open { display: flex; }
 
     .modal {
-      width: min(980px, 100%);
-      max-height: 92dvh;
-      overflow: auto;
-      background: var(--color-surface);
-      border-radius: 1.2rem;
-      border: 1px solid var(--color-border);
+      background: var(--color-surface); border-radius: var(--radius-lg);
+      max-width: 640px; width: 100%; max-height: 85vh; overflow-y: auto;
       box-shadow: var(--shadow-lg);
-      padding: var(--space-5);
-      position: relative;
-      z-index: 101;
-      margin-inline: auto;
     }
-
-    .modal.small { width: min(420px, 100%); }
+    .modal.small { max-width: 380px; }
+    .modal.cart-modal { max-width: 900px; }
 
     .modal-head {
-      display: flex;
-      justify-content: space-between;
+      display: flex; justify-content: space-between; align-items: center;
+      padding: var(--space-4) var(--space-5); border-bottom: 1px solid var(--color-divider);
+    }
+    .modal-title { font-weight: 700; font-size: var(--text-lg); }
+    .close-btn { background: none; border: 0; font-size: 1.5rem; cursor: pointer; color: var(--color-text-muted); }
+
+    .detail-grid { padding: var(--space-5); display: grid; gap: var(--space-4); grid-template-columns: 1fr 1fr; }
+    .detail-card { display: grid; gap: var(--space-3); }
+    .detail-image-wrap { border-radius: var(--radius-lg); overflow: hidden; background: var(--color-surface-offset); }
+    .detail-image-wrap img { width: 100%; }
+    .disclaimer { font-size: var(--text-xs); color: var(--color-text-muted); }
+    .detail-meta { display: grid; gap: var(--space-3); align-content: start; }
+    .detail-label { display: block; font-size: var(--text-xs); text-transform: uppercase; color: var(--color-text-muted); letter-spacing: .05em; }
+
+    .pin-input {
+      min-height: 44px; border-radius: var(--radius-md); border: 1px solid var(--color-border);
+      padding: 0 var(--space-3); background: var(--color-surface-2); color: var(--color-text); width: 100%;
+    }
+    .muted { color: var(--color-error); font-size: var(--text-sm); min-height: 1.2em; }
+    .page-label { color: var(--color-text-muted); font-size: var(--text-sm); }
+
+    .cart-list { padding: var(--space-4) var(--space-5); display: grid; gap: var(--space-3); }
+    .cart-row {
+      display: grid; grid-template-columns: 1.5fr 1fr 1fr auto; gap: var(--space-3); align-items: center;
+      border-bottom: 1px solid var(--color-divider); padding-bottom: var(--space-3);
+    }
+    .cart-row input {
+      min-height: 40px; border-radius: var(--radius-md); border: 1px solid var(--color-border);
+      padding: 0 var(--space-2); background: var(--color-surface-2); color: var(--color-text); width: 100%;
+    }
+    .cart-row .cart-desc {
+      color: var(--color-text);
+    }
+    .cart-summary { padding: var(--space-4) var(--space-5); border-top: 2px solid var(--color-divider); display: grid; gap: var(--space-4); }
+    .cart-adjust input {
+      min-height: 44px; border-radius: var(--radius-md); border: 1px solid var(--color-border);
+      padding: 0 var(--space-3); background: var(--color-surface-2); color: var(--color-text); width: 100%; margin-top: var(--space-2);
+    }
+    .totals { display: grid; gap: var(--space-1); font-size: var(--text-base); }
+    .qr-grid { display: flex; gap: var(--space-3); flex-wrap: wrap; justify-content: center; }
+    .qr-card { width: 100px; height: 100px; border: 1px solid var(--color-border); border-radius: var(--radius-md); overflow: hidden; }
+    .qr-card img { width: 100%; height: 100%; object-fit: contain; }
+
+    .danger-btn.remove-btn {
+      display: inline-flex;
       align-items: center;
-      gap: var(--space-3);
-      margin-bottom: var(--space-4);
+      gap: .4rem;
+    }
+    .danger-btn.remove-btn svg { width: 16px; height: 16px; flex: 0 0 auto; }
+
+    /* ===================== iPhone view mode override ===================== */
+    html[data-view-mode="iphone"] body {
+      max-width: 430px;
+      margin: 0 auto;
+      border-left: 1px solid var(--color-divider);
+      border-right: 1px solid var(--color-divider);
+      box-shadow: var(--shadow-lg);
     }
 
-    .modal-title { font-size: var(--text-lg); font-weight: 700; }
-
-    .close-btn {
-      border: 1px solid var(--color-border);
-      background: var(--color-surface-2);
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
+    html[data-view-mode="iphone"] .topbar {
+      min-height: auto;
+      padding: var(--space-3) var(--space-4);
+      justify-content: space-between;
+      flex-wrap: nowrap;
     }
 
-    .detail-grid {
-      display: grid;
-      grid-template-columns: minmax(240px, 330px) 1fr;
-      gap: var(--space-5);
-      align-items: start;
+    html[data-view-mode="iphone"] .header-center {
+      display: none;
     }
 
-    .detail-card {
-      display: grid;
-      gap: var(--space-3);
-      justify-items: center;
-      text-align: center;
+    /* FIX: only hide the TOP-ROW copies of theme/view-mode/marquee buttons, not the ones inside the hamburger dropdown */
+    html[data-view-mode="iphone"] .header-right > .theme-btn,
+    html[data-view-mode="iphone"] .header-right > .view-mode-btn,
+    html[data-view-mode="iphone"] .header-right > .marquee-btn {
+      display: none;
     }
 
-    .detail-image-wrap {
-      position: relative;
-      width: 100%;
-      max-width: 280px;
-      aspect-ratio: 4/5;
-      background: var(--color-surface-offset);
-      border-radius: var(--radius-lg);
+    html[data-view-mode="iphone"] .header-left {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      flex: 1 1 auto;
+      min-width: 0;
       overflow: hidden;
     }
 
-    .detail-image-wrap img {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      max-width: 100%;
-      max-height: 100%;
-      width: auto;
-      height: auto;
-      transform: translate(-50%, -50%);
-      object-fit: contain;
-      object-position: center;
-      margin: 0;
+    html[data-view-mode="iphone"] .brand {
+      flex: 0 0 auto;
+      min-width: 0;
     }
 
-    .detail-meta { display: grid; gap: var(--space-2); }
-
-    .detail-label {
-      font-size: var(--text-xs);
-      color: var(--color-text-muted);
-      text-transform: uppercase;
-      letter-spacing: .08em;
+    html[data-view-mode="iphone"] .title {
+      font-size: var(--text-base);
+      white-space: nowrap;
     }
 
-    .detail-meta strong { display: block; }
-
-    .disclaimer {
-      color: var(--color-text-muted);
-      font-size: var(--text-sm);
-      background: var(--color-surface-2);
-      padding: var(--space-3);
-      border-radius: var(--radius-md);
+    html[data-view-mode="iphone"] .logo {
+      width: 26px;
+      height: 26px;
     }
 
-    .cart-list { display: grid; gap: var(--space-3); }
-
-    .cart-row {
-      display: grid;
-      grid-template-columns: 1.7fr .7fr .75fr auto;
-      gap: var(--space-3);
+    .phone-status-chip {
+      display: none;
+    }
+    html[data-view-mode="iphone"] .phone-status-chip {
+      display: inline-flex;
       align-items: center;
-      border: 1px solid var(--color-border);
-      border-radius: var(--radius-lg);
-      padding: var(--space-3);
-    }
-
-    .cart-row input, .cart-adjust input, .pin-input {
-      min-height: 42px;
-      border-radius: var(--radius-md);
-      border: 1px solid var(--color-border);
-      background: var(--color-surface-2);
-      padding: 0 .75rem;
+      gap: .3rem;
+      font-size: 0.65rem;
+      border-radius: var(--radius-full);
+      padding: .3rem .5rem;
+      background: var(--color-primary-highlight);
       color: var(--color-text);
+      white-space: nowrap;
+      flex: 0 0 auto;
+    }
+    .phone-status-chip::before {
+      content: '';
+      width: .45rem;
+      height: .45rem;
+      border-radius: 50%;
+      background: var(--color-primary);
+      flex: 0 0 auto;
     }
 
-    .cart-summary {
-      margin-top: var(--space-4);
-      display: grid;
-      gap: var(--space-3);
-    }
-
-    .cart-adjust {
-      display: grid;
-      grid-template-columns: 1fr 160px;
-      gap: var(--space-3);
+    html[data-view-mode="iphone"] .header-right {
+      display: flex;
       align-items: center;
-    }
-
-    .totals {
-      display: grid;
       gap: var(--space-2);
-      padding: var(--space-4);
-      border-radius: var(--radius-lg);
-      background: var(--color-surface-2);
+      flex: 0 0 auto;
     }
 
-    .qr-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(110px, 1fr));
-      gap: var(--space-3);
+    html[data-view-mode="iphone"] .cart-btn {
+      min-width: 0;
+      padding: 0 var(--space-3);
+      font-size: var(--text-xs);
+      white-space: nowrap;
     }
 
-    .qr-card {
+    .hamburger-btn {
+      display: none;
+    }
+
+    html[data-view-mode="iphone"] .hamburger-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      min-height: 40px;
+      padding: 0;
+      flex: 0 0 auto;
+    }
+
+    .hamburger-btn svg { width: 18px; height: 18px; }
+
+    /* FIX: hamburger menu is now an absolutely-positioned dropdown so it never shifts other header content */
+    .hamburger-menu {
+      display: none;
+      flex-direction: column;
+      gap: var(--space-2);
+      padding: var(--space-3);
+    }
+
+    html[data-view-mode="iphone"] .hamburger-menu.open {
+      display: flex;
+      position: absolute;
+      top: calc(100% + var(--space-2));
+      right: var(--space-4);
+      width: 240px;
+      background: var(--color-surface);
       border: 1px solid var(--color-border);
       border-radius: var(--radius-lg);
-      padding: var(--space-3);
-      background: var(--color-surface);
-      text-align: center;
+      box-shadow: var(--shadow-lg);
+      z-index: 60;
     }
 
-    .qr-card img {
+    .hamburger-menu .nav-btn,
+    .hamburger-menu .theme-btn,
+    .hamburger-menu .view-mode-btn,
+    .hamburger-menu .marquee-btn {
       width: 100%;
-      max-width: 130px;
-      margin-inline: auto;
-      aspect-ratio: 1/1;
-      object-fit: contain;
-      background: var(--color-surface-offset);
-      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .4rem;
+      min-width: 0;
     }
 
-    .empty {
-      padding: var(--space-8);
+    html[data-view-mode="iphone"] .header-center .nav-btn {
+      flex: 1 1 auto;
+      min-width: 0;
+      font-size: var(--text-xs);
+      padding: 0 var(--space-2);
+    }
+
+    html[data-view-mode="iphone"] .filters-grid,
+    html[data-view-mode="iphone"] .filters-grid.sold {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    html[data-view-mode="iphone"] .carousel {
+      grid-template-columns: minmax(160px, 220px);
+    }
+
+    html[data-view-mode="iphone"] .table-head.for-sale-cols,
+    html[data-view-mode="iphone"] .table-row.for-sale-cols,
+    html[data-view-mode="iphone"] .table-head.sold-cols,
+    html[data-view-mode="iphone"] .table-row.sold-cols {
+      grid-template-columns: 30px repeat(6, minmax(70px, 1fr));
+      font-size: var(--text-xs);
+      overflow-x: auto;
+    }
+
+    html[data-view-mode="iphone"] .detail-grid {
+      grid-template-columns: 1fr;
+    }
+
+    html[data-view-mode="iphone"] .modal.cart-modal {
+      max-width: 95vw;
+    }
+
+    /* ===================== Marquee fullscreen overlay ===================== */
+    .marquee-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.92);
+      z-index: 1000;
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .marquee-overlay.open {
+      display: flex;
+    }
+
+    .marquee-topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-4) var(--space-5);
+      color: #fff;
+    }
+
+    .marquee-topbar .close-btn {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,.4);
+      color: #fff;
+      font-size: 1.5rem;
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-full);
+      line-height: 1;
+    }
+
+    .marquee-viewport {
+      flex: 1;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .marquee-track {
+      display: flex;
+      gap: var(--space-5);
+      align-items: center;
+      white-space: nowrap;
+      animation: marquee-scroll linear infinite;
+      padding: 0 var(--space-5);
+    }
+
+    .marquee-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-2);
+      flex: 0 0 auto;
+    }
+
+    .marquee-track img {
+      height: 60vh;
+      max-height: 520px;
+      width: auto;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .marquee-cap {
+      color: #fff;
+      font-size: var(--text-sm);
+      opacity: .85;
+    }
+
+    .marquee-caption {
+      color: #fff;
       text-align: center;
-      color: var(--color-text-muted);
+      font-size: var(--text-sm);
+      opacity: .8;
+      padding: var(--space-3) 0;
     }
 
-    .page-label { font-size: var(--text-sm); color: var(--color-text-muted); }
-
-    @media (max-width: 1300px) {
-      :root {
-        --filters-h: 15.5rem;
-        --carousel-h: 8rem;
-      }
-
-      .filters-grid, .filters-grid.sold {
-        grid-template-columns: repeat(2, minmax(150px, 1fr));
-      }
-
-      .carousel {
-        grid-template-columns: repeat(5, minmax(110px, 140px));
-        justify-content: start;
-      }
-
-      .detail-grid { grid-template-columns: 1fr; }
-    }
-
-    @media (max-width: 900px) {
-      :root {
-        --header-h: 8.5rem;
-      }
-
-      .topbar {
-        justify-content: center;
-      }
-
-      .header-left, .header-center, .header-right {
-        width: 100%;
-        justify-content: center;
-      }
-    }
-
-    @media (max-width: 760px) {
-      :root {
-        --header-h: 10.5rem;
-        --filters-h: 24rem;
-        --carousel-h: 7.75rem;
-        --carousel-collapsed-h: 4rem;
-      }
-
-      .topbar, .filters, .carousel-wrap, .inventory {
-        padding-inline: var(--space-4);
-      }
-
-      .filters-grid, .filters-grid.sold { grid-template-columns: 1fr 1fr; }
-      .table-head, .table-row { width: max-content; min-width: 100%; }
-
-      .table-body {
-        max-height: calc(100dvh - var(--header-h) - var(--filters-h) - var(--carousel-h) - 11rem);
-      }
-
-      .table-body.carousel-collapsed {
-        max-height: calc(100dvh - var(--header-h) - var(--filters-h) - var(--carousel-collapsed-h) - 11rem);
-      }
-
-      .inventory-head {
-        flex-direction: row;
-        align-items: center;
-      }
-
-      .cart-row { grid-template-columns: 1fr; }
-      .cart-adjust { grid-template-columns: 1fr; }
-      .qr-grid { grid-template-columns: 1fr; }
+    @keyframes marquee-scroll {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
     }
   </style>
 </head>
@@ -695,12 +783,19 @@
           </svg>
           <div class="title">Card Inventory</div>
         </div>
+        <div class="phone-status-chip" id="phoneStatusChip">For Sale</div>
       </div>
 
       <nav class="header-center" aria-label="Inventory views">
         <button class="nav-btn" data-view-link="for-sale">For Sale Items</button>
-        <button class="nav-btn" data-view-link="keep">Keep Items</button>
-        <button class="nav-btn" data-view-link="sold">Sold Items</button>
+        <button class="nav-btn" data-view-link="keep">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+          <span>PC</span>
+        </button>
+        <button class="nav-btn" data-view-link="sold">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+          <span>Sold Items</span>
+        </button>
       </nav>
 
       <div class="header-right">
@@ -708,22 +803,55 @@
           <span class="theme-icon" id="themeIcon" aria-hidden="true"></span>
           <span id="themeLabel">Theme</span>
         </button>
+        <button class="view-mode-btn" id="viewModeToggle" aria-label="Toggle Phone / Desktop view">
+          <span id="viewModeLabel">Phone</span>
+        </button>
+        <button class="marquee-btn" id="openMarqueeBtn" type="button">Marquee</button>
         <button class="cart-btn" id="openCartBtn">View Cart (<span id="cartCount">0</span>)</button>
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M3 6h18M3 12h18M3 18h18"></path>
+          </svg>
+        </button>
+
+        <div class="hamburger-menu" id="hamburgerMenu">
+          <button class="nav-btn" data-view-link="for-sale">For Sale Items</button>
+          <button class="nav-btn" data-view-link="keep">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+            <span>PC</span>
+          </button>
+          <button class="nav-btn" data-view-link="sold">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>
+            <span>Sold Items</span>
+          </button>
+          <button class="theme-btn" id="hamburgerThemeBtn" aria-label="Switch theme">
+            <span id="hamburgerThemeLabel">Theme</span>
+          </button>
+          <button class="view-mode-btn" id="hamburgerViewModeBtn">
+            <span id="hamburgerViewModeLabel">Desktop</span>
+          </button>
+          <button class="marquee-btn" id="hamburgerMarqueeBtn" type="button">Marquee</button>
+        </div>
       </div>
     </header>
 
-    <section class="filters sticky" aria-labelledby="filtersHeading">
+    <section class="filters sticky" id="filtersSection" aria-labelledby="filtersHeading">
       <div class="filters-row">
-        <div>
-          <div id="filtersHeading" class="modal-title">Search and filters</div>
-          <div class="page-label" id="filterHint">Showing items marked For Sale</div>
+        <div class="filters-row-left">
+          <button class="toggle-btn" id="toggleFiltersBtn" type="button" aria-expanded="true">Collapse Filters</button>
+          <div>
+            <div id="filtersHeading" class="modal-title">Search and filters</div>
+            <div class="page-label" id="filterHint">Showing items marked For Sale</div>
+          </div>
         </div>
         <div class="filter-actions">
-          <div class="status-chip" id="statusChip">For Sale</div>
-          <button class="secondary-btn" id="clearFiltersBtn" type="button">Clear Filters</button>
+          <div class="status-chip filters-status-chip" id="statusChip">For Sale</div>
         </div>
       </div>
       <div class="filters-grid" id="filtersGrid"></div>
+      <div class="clear-filters-row">
+        <button class="secondary-btn" id="clearFiltersBtn" type="button">Clear Filters</button>
+      </div>
     </section>
 
     <section class="carousel-wrap sticky" id="carouselWrap" aria-label="Card image carousel">
@@ -761,7 +889,7 @@
   </div>
 
   <div class="modal-backdrop" id="cartModalBackdrop" aria-hidden="true">
-    <div class="modal">
+    <div class="modal cart-modal">
       <div class="modal-head">
         <div class="modal-title">Shopping Cart</div>
         <button class="close-btn" data-close="cartModalBackdrop" aria-label="Close cart">×</button>
@@ -785,6 +913,30 @@
     </div>
   </div>
 
+  <div class="modal-backdrop" id="confirmAddModalBackdrop" aria-hidden="true">
+    <div class="modal small">
+      <div class="modal-head">
+        <div class="modal-title">Added to Cart</div>
+        <button class="close-btn" data-close="confirmAddModalBackdrop" aria-label="Close confirmation">×</button>
+      </div>
+      <div class="detail-card">
+        <div class="page-label" id="confirmAddText">Items added.</div>
+        <button class="action-btn" data-close="confirmAddModalBackdrop">OK</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="marquee-overlay" id="marqueeOverlay" aria-hidden="true">
+    <div class="marquee-topbar">
+      <div>Card Image Marquee — For Sale items, sorted by highest Desired Price</div>
+      <button class="close-btn" id="closeMarqueeBtn" aria-label="Close marquee">×</button>
+    </div>
+    <div class="marquee-viewport">
+      <div class="marquee-track" id="marqueeTrack"></div>
+    </div>
+    <div class="marquee-caption">Click anywhere to close and return to the home page</div>
+  </div>
+
   <script>
     const APP = {
       adminPin: '4321',
@@ -800,6 +952,8 @@
       manualTheme: null,
       imageBasePath: 'card_images/',
       carouselExpanded: true,
+      filtersExpanded: true,
+      viewMode: 'desktop',
       visibleCarouselIds: []
     };
 
@@ -4199,7 +4353,7 @@
     "Set": "1997 Skybox Reebok Allen Iverson",
     "Variant": "-",
     "Value": 2.34,
-    "Card Number": NaN,
+    "Card Number": null,
     "product-name": "Allen iverson",
     "Item #": 217,
     "id": 2988190,
@@ -6044,7 +6198,7 @@
     "Set": "Marvel 1994 Flair",
     "Variant": "Part III",
     "Value": 2.99,
-    "Card Number": NaN,
+    "Card Number": null,
     "product-name": "Spider-Demon [Part III]",
     "Item #": 183,
     "id": 5079441,
@@ -9259,9 +9413,9 @@
     "Item #": 105,
     "id": 7094582,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 1.0
   },
   {
@@ -9274,9 +9428,9 @@
     "Item #": 103,
     "id": 11909415,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 2.0
   },
   {
@@ -9289,9 +9443,9 @@
     "Item #": 100,
     "id": 11909415,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 2.0
   },
   {
@@ -9304,9 +9458,9 @@
     "Item #": 101,
     "id": 11830213,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 2.0
   },
   {
@@ -9319,9 +9473,9 @@
     "Item #": 104,
     "id": 6857907,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 13.0
   },
   {
@@ -9334,9 +9488,9 @@
     "Item #": 102,
     "id": 6422089,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 10.0
   },
   {
@@ -9349,9 +9503,9 @@
     "Item #": 108,
     "id": 6059255,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9364,9 +9518,9 @@
     "Item #": 107,
     "id": 6059234,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9379,9 +9533,9 @@
     "Item #": 56,
     "id": 2755758,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 1.0
   },
   {
@@ -9394,9 +9548,9 @@
     "Item #": 45837587,
     "id": 113596,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 42.0
   },
   {
@@ -9409,9 +9563,9 @@
     "Item #": 88,
     "id": 85449,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -9424,9 +9578,9 @@
     "Item #": 89,
     "id": 87381,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -9439,9 +9593,9 @@
     "Item #": 97,
     "id": 85372,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 39.0
   },
   {
@@ -9454,9 +9608,9 @@
     "Item #": 87,
     "id": 85372,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 39.0
   },
   {
@@ -9469,9 +9623,9 @@
     "Item #": 85,
     "id": 85401,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -9484,9 +9638,9 @@
     "Item #": 94,
     "id": 85401,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -9499,9 +9653,9 @@
     "Item #": 95,
     "id": 85401,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -9514,9 +9668,9 @@
     "Item #": 81,
     "id": 89006,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 173.0
   },
   {
@@ -9529,9 +9683,9 @@
     "Item #": 96,
     "id": 89006,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 173.0
   },
   {
@@ -9544,9 +9698,9 @@
     "Item #": 93,
     "id": 84113,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -9559,9 +9713,9 @@
     "Item #": 99,
     "id": 7148998,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 39.0
   },
   {
@@ -9574,9 +9728,9 @@
     "Item #": 82,
     "id": 85396,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -9589,9 +9743,9 @@
     "Item #": 86,
     "id": 85396,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -9604,9 +9758,9 @@
     "Item #": 91,
     "id": 4732090,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 31.0
   },
   {
@@ -9619,9 +9773,9 @@
     "Item #": 45718822,
     "id": 108730,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 31.0
   },
   {
@@ -9634,9 +9788,9 @@
     "Item #": 92,
     "id": 83402,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 23.0
   },
   {
@@ -9649,9 +9803,9 @@
     "Item #": 98,
     "id": 108730,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 39.0
   },
   {
@@ -9664,9 +9818,9 @@
     "Item #": 84,
     "id": 93958,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -9679,9 +9833,9 @@
     "Item #": 80,
     "id": 94017,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 16.0
   },
   {
@@ -9694,9 +9848,9 @@
     "Item #": 83,
     "id": 9778816,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 50.0
   },
   {
@@ -9709,9 +9863,9 @@
     "Item #": 90,
     "id": 12415755,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 15.0
   },
   {
@@ -9724,9 +9878,9 @@
     "Item #": 79,
     "id": 12613839,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9739,9 +9893,9 @@
     "Item #": 106,
     "id": 94023,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 12.0
   },
   {
@@ -9754,9 +9908,9 @@
     "Item #": 66,
     "id": 145531,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 12.0
   },
   {
@@ -9769,9 +9923,9 @@
     "Item #": 67,
     "id": 11830197,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 8.0
   },
   {
@@ -9784,9 +9938,9 @@
     "Item #": 68,
     "id": 11830197,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 8.0
   },
   {
@@ -9799,9 +9953,9 @@
     "Item #": 60,
     "id": 87406,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 4.0
   },
   {
@@ -9814,9 +9968,9 @@
     "Item #": 63,
     "id": 87406,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 4.0
   },
   {
@@ -9829,9 +9983,9 @@
     "Item #": 77,
     "id": 87406,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 4.0
   },
   {
@@ -9844,9 +9998,9 @@
     "Item #": 55,
     "id": 10826665,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 2.0
   },
   {
@@ -9859,9 +10013,9 @@
     "Item #": 54,
     "id": 93981,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9874,9 +10028,9 @@
     "Item #": 53,
     "id": 93989,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9889,9 +10043,9 @@
     "Item #": 74,
     "id": 93985,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9904,9 +10058,9 @@
     "Item #": 78,
     "id": 93964,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9919,9 +10073,9 @@
     "Item #": 70,
     "id": 93952,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9934,9 +10088,9 @@
     "Item #": 65,
     "id": 93968,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9949,9 +10103,9 @@
     "Item #": 69,
     "id": 93972,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9964,9 +10118,9 @@
     "Item #": 61,
     "id": 5134024,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9979,9 +10133,9 @@
     "Item #": 57,
     "id": 93956,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -9994,9 +10148,9 @@
     "Item #": 59,
     "id": 93960,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -10009,9 +10163,9 @@
     "Item #": 71,
     "id": 93948,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -10024,9 +10178,9 @@
     "Item #": 75,
     "id": 93948,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -10039,9 +10193,9 @@
     "Item #": 64,
     "id": 5885939,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -10054,9 +10208,9 @@
     "Item #": 62,
     "id": 2263350,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 12.0
   },
   {
@@ -10069,9 +10223,9 @@
     "Item #": 76,
     "id": 87401,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -10084,9 +10238,9 @@
     "Item #": 72,
     "id": 85723,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -10099,9 +10253,9 @@
     "Item #": 73,
     "id": 8800692,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 5.0
   },
   {
@@ -10114,9 +10268,9 @@
     "Item #": 58,
     "id": 11909462,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 4.0
   },
   {
@@ -10129,9 +10283,9 @@
     "Item #": 51,
     "id": 11484449,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 20.0
   },
   {
@@ -10144,9 +10298,9 @@
     "Item #": 52,
     "id": 11909415,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 10.0
   },
   {
@@ -10159,9 +10313,9 @@
     "Item #": 39,
     "id": 11909415,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 0.0
   },
   {
@@ -10174,9 +10328,9 @@
     "Item #": 15,
     "id": 11484449,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 0.0
   },
   {
@@ -10189,9 +10343,9 @@
     "Item #": 415,
     "id": 8771795,
     "Status": "Sold",
-    "Desired Price": NaN,
-    "Minimum Price": NaN,
-    "Count": NaN,
+    "Desired Price": null,
+    "Minimum Price": null,
+    "Count": null,
     "Sale Price": 0.0
   }
 ];
@@ -10199,7 +10353,10 @@
     const els = {
       filterHint: document.getElementById('filterHint'),
       statusChip: document.getElementById('statusChip'),
+      phoneStatusChip: document.getElementById('phoneStatusChip'),
+      filtersSection: document.getElementById('filtersSection'),
       filtersGrid: document.getElementById('filtersGrid'),
+      toggleFiltersBtn: document.getElementById('toggleFiltersBtn'),
       tableHead: document.getElementById('tableHead'),
       tableBody: document.getElementById('tableBody'),
       itemCount: document.getElementById('itemCount'),
@@ -10221,7 +10378,22 @@
       pinSubmitBtn: document.getElementById('pinSubmitBtn'),
       openCartBtn: document.getElementById('openCartBtn'),
       themeIcon: document.getElementById('themeIcon'),
-      themeLabel: document.getElementById('themeLabel')
+      themeLabel: document.getElementById('themeLabel'),
+      viewModeToggle: document.getElementById('viewModeToggle'),
+      viewModeLabel: document.getElementById('viewModeLabel'),
+      openMarqueeBtn: document.getElementById('openMarqueeBtn'),
+      closeMarqueeBtn: document.getElementById('closeMarqueeBtn'),
+      marqueeOverlay: document.getElementById('marqueeOverlay'),
+      marqueeTrack: document.getElementById('marqueeTrack'),
+      hamburgerBtn: document.getElementById('hamburgerBtn'),
+      hamburgerMenu: document.getElementById('hamburgerMenu'),
+      hamburgerThemeBtn: document.getElementById('hamburgerThemeBtn'),
+      hamburgerThemeLabel: document.getElementById('hamburgerThemeLabel'),
+      hamburgerViewModeBtn: document.getElementById('hamburgerViewModeBtn'),
+      hamburgerViewModeLabel: document.getElementById('hamburgerViewModeLabel'),
+      hamburgerMarqueeBtn: document.getElementById('hamburgerMarqueeBtn'),
+      confirmAddModalBackdrop: document.getElementById('confirmAddModalBackdrop'),
+      confirmAddText: document.getElementById('confirmAddText')
     };
 
     const FIELD_CONFIG = {
@@ -10449,8 +10621,9 @@
         return rect.bottom > bodyRect.top && rect.top < bodyRect.bottom;
       });
 
-      const topFiveVisible = visibleRows.slice(0, 5).map(row => row.dataset.rowItem);
-      APP.visibleCarouselIds = topFiveVisible;
+      const maxImages = APP.viewMode === 'iphone' ? 1 : 5;
+      const topVisible = visibleRows.slice(0, maxImages).map(row => row.dataset.rowItem);
+      APP.visibleCarouselIds = topVisible;
       renderCarousel();
     }
 
@@ -10653,6 +10826,7 @@
         return;
       }
 
+      const maxImages = APP.viewMode === 'iphone' ? 1 : 5;
       let items = [];
 
       if (APP.visibleCarouselIds.length) {
@@ -10662,8 +10836,10 @@
       }
 
       if (!items.length) {
-        items = filteredItems().slice(0, 5);
+        items = filteredItems().slice(0, maxImages);
       }
+
+      items = items.slice(0, maxImages);
 
       if (!items.length) {
         els.carousel.innerHTML = `<div class="empty">No visible images for this view.</div>`;
@@ -10724,12 +10900,18 @@
       `;
 
       document.getElementById('addToCartFromModal').addEventListener('click', () => {
+        let addedCount = 0;
         if (!APP.cart.includes(itemId)) {
           APP.cart.push(itemId);
-          updateCartCount();
-          renderCart();
-          renderApp();
+          addedCount = 1;
         }
+        updateCartCount();
+        renderCart();
+        renderApp();
+        closeModal(els.itemModalBackdrop);
+
+        els.confirmAddText.textContent = `${addedCount} item${addedCount === 1 ? '' : 's'} added to the cart.`;
+        openModal(els.confirmAddModalBackdrop);
       });
 
       openModal(els.itemModalBackdrop);
@@ -10759,6 +10941,8 @@
       const finalTotal = cartGlobalNum != null ? cartGlobalNum : adjustedTotalBeforeGlobal;
       const discount = desiredTotal - finalTotal;
 
+      const trashSvg = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M8 6V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2m2 0-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"></path></svg>`;
+
       els.cartContent.innerHTML = `
         <div class="cart-list">
           ${cartItems.map(item => {
@@ -10767,7 +10951,7 @@
               <div class="cart-row">
                 <div>
                   <strong>${escapeHtml(item.Player ?? '-')}</strong><br />
-                  <span class="muted">${escapeHtml(item.Set ?? '-')} - ${escapeHtml(item.Variant ?? '-')} - ${escapeHtml(item['Card Number'] ?? '-')}</span>
+                  <span class="cart-desc">${escapeHtml(item.Set ?? '-')} - ${escapeHtml(item.Variant ?? '-')} - ${escapeHtml(item['Card Number'] ?? '-')}</span>
                 </div>
                 <div class="mono"><strong>Price:</strong> ${money(item['Desired Price'])}</div>
                 <div>
@@ -10780,7 +10964,7 @@
                     placeholder="Override"
                   />
                 </div>
-                <div><button class="danger-btn" data-remove-cart="${escapeHtml(id)}">Remove</button></div>
+                <div><button class="danger-btn remove-btn" data-remove-cart="${escapeHtml(id)}">${trashSvg}<span>Remove</span></button></div>
               </div>
             `;
           }).join('')}
@@ -10893,7 +11077,7 @@
         APP.filters = {};
         APP.selected.clear();
         APP.sort = { key: FIELD_CONFIG[view].sortDefault, direction: 'desc', custom: false };
-        APP.carouselExpanded = true;
+        APP.carouselExpanded = APP.viewMode === 'iphone' ? false : true;
         renderApp();
         return;
       }
@@ -10907,7 +11091,7 @@
       APP.filters = {};
       APP.selected.clear();
       APP.sort = { key: FIELD_CONFIG[view].sortDefault, direction: 'desc', custom: false };
-      APP.carouselExpanded = true;
+      APP.carouselExpanded = APP.viewMode === 'iphone' ? false : true;
       renderApp();
     }
 
@@ -10930,14 +11114,22 @@
         return;
       }
 
+      let addedCount = 0;
       chosen.forEach(item => {
         const id = String(getItemNumber(item));
-        if (!APP.cart.includes(id)) APP.cart.push(id);
+        if (!APP.cart.includes(id)) {
+          APP.cart.push(id);
+          addedCount++;
+        }
       });
 
       updateCartCount();
       renderCart();
-      openModal(els.cartModalBackdrop);
+      APP.selected.clear();
+      renderApp();
+
+      els.confirmAddText.textContent = `${addedCount} item${addedCount === 1 ? '' : 's'} added to the cart.`;
+      openModal(els.confirmAddModalBackdrop);
     }
 
     function applyTheme() {
@@ -10948,18 +11140,150 @@
         root.setAttribute('data-theme', theme);
         els.themeIcon.innerHTML = themeIconSvg(theme);
         els.themeLabel.textContent = theme === 'dark' ? 'Light' : 'Dark';
+        els.hamburgerThemeLabel.textContent = theme === 'dark' ? 'Light' : 'Dark';
         button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
       };
 
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       setTheme(APP.manualTheme || (prefersDark ? 'dark' : 'light'));
 
-      button.addEventListener('click', () => {
+      const toggleThemeFn = () => {
         const current = root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
         APP.manualTheme = current === 'dark' ? 'light' : 'dark';
         setTheme(APP.manualTheme);
-      });
+      };
+
+      button.addEventListener('click', toggleThemeFn);
+      els.hamburgerThemeBtn.addEventListener('click', toggleThemeFn);
     }
+
+    function applyViewMode() {
+      document.documentElement.setAttribute('data-view-mode', APP.viewMode);
+      const nextLabel = APP.viewMode === 'iphone' ? 'Desktop' : 'Phone';
+      els.viewModeLabel.textContent = nextLabel;
+      els.hamburgerViewModeLabel.textContent = nextLabel;
+    }
+
+    function toggleViewMode() {
+      APP.viewMode = APP.viewMode === 'iphone' ? 'desktop' : 'iphone';
+      applyViewMode();
+
+      if (APP.viewMode === 'iphone') {
+        APP.filtersExpanded = false;
+        APP.carouselExpanded = false;
+      } else {
+        APP.filtersExpanded = true;
+        APP.carouselExpanded = true;
+      }
+      applyFiltersExpanded();
+      renderApp();
+      closeHamburgerMenu();
+    }
+
+    els.viewModeToggle.addEventListener('click', toggleViewMode);
+    els.hamburgerViewModeBtn.addEventListener('click', toggleViewMode);
+
+    function applyFiltersExpanded() {
+      els.filtersSection.classList.toggle('collapsed', !APP.filtersExpanded);
+      els.toggleFiltersBtn.textContent = APP.filtersExpanded ? 'Collapse Filters' : 'Expand Filters';
+      els.toggleFiltersBtn.setAttribute('aria-expanded', String(APP.filtersExpanded));
+    }
+
+    els.toggleFiltersBtn.addEventListener('click', () => {
+      APP.filtersExpanded = !APP.filtersExpanded;
+      applyFiltersExpanded();
+    });
+
+    function openHamburgerMenu() {
+      els.hamburgerMenu.classList.add('open');
+      els.hamburgerBtn.setAttribute('aria-expanded', 'true');
+    }
+    function closeHamburgerMenu() {
+      els.hamburgerMenu.classList.remove('open');
+      els.hamburgerBtn.setAttribute('aria-expanded', 'false');
+    }
+    els.hamburgerBtn.addEventListener('click', () => {
+      const isOpen = els.hamburgerMenu.classList.contains('open');
+      if (isOpen) closeHamburgerMenu();
+      else openHamburgerMenu();
+    });
+
+    document.addEventListener('click', (e) => {
+      if (APP.viewMode !== 'iphone') return;
+      if (!els.hamburgerMenu.classList.contains('open')) return;
+      if (els.hamburgerMenu.contains(e.target) || els.hamburgerBtn.contains(e.target)) return;
+      closeHamburgerMenu();
+    });
+
+    function getSortedMarqueeItems() {
+      return DATA
+        .filter(item => normalizeStatus(item.Status) === 'for sale')
+        .filter(item => getImageId(item) !== undefined && getImageId(item) !== '')
+        .slice()
+        .sort((a, b) => {
+          const pa = Number(a['Desired Price']) || 0;
+          const pb = Number(b['Desired Price']) || 0;
+          return pb - pa;
+        });
+    }
+
+    function buildMarqueeTrack() {
+      const items = getSortedMarqueeItems();
+      els.marqueeTrack.innerHTML = '';
+
+      if (!items.length) {
+        els.marqueeTrack.innerHTML = '<div class="marquee-cap">No For Sale images found.</div>';
+        return;
+      }
+
+      const sequence = [...items, ...items];
+
+      sequence.forEach(item => {
+        const wrap = document.createElement('div');
+        wrap.className = 'marquee-item';
+
+        const img = document.createElement('img');
+        img.src = getImagePath(item);
+        img.alt = `${item.Player ?? 'Card'} — Desired Price ${item['Desired Price'] ?? ''}`;
+        img.loading = 'lazy';
+        img.onerror = function () { this.onerror = null; this.src = 'card_images/0.jpg'; };
+
+        const cap = document.createElement('div');
+        cap.className = 'marquee-cap';
+        cap.textContent = `${item.Player ?? '-'} · ${money(item['Desired Price'])}`;
+
+        wrap.appendChild(img);
+        wrap.appendChild(cap);
+        els.marqueeTrack.appendChild(wrap);
+      });
+
+      const duration = Math.max(20, items.length * 4);
+      els.marqueeTrack.style.animationDuration = `${duration}s`;
+    }
+
+    function openMarquee() {
+      buildMarqueeTrack();
+      els.marqueeOverlay.classList.add('open');
+      els.marqueeOverlay.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      closeHamburgerMenu();
+    }
+
+    function closeMarquee() {
+      els.marqueeOverlay.classList.remove('open');
+      els.marqueeOverlay.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+
+    els.openMarqueeBtn.addEventListener('click', openMarquee);
+    els.hamburgerMarqueeBtn.addEventListener('click', openMarquee);
+
+    els.marqueeOverlay.addEventListener('click', closeMarquee);
+    els.closeMarqueeBtn.addEventListener('click', (e) => { e.stopPropagation(); closeMarquee(); });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && els.marqueeOverlay.classList.contains('open')) closeMarquee();
+    });
 
     function renderApp() {
       ensureDefaultSort();
@@ -10968,6 +11292,7 @@
 
       els.filterHint.textContent = `Showing items marked ${cfg.statusLabel}`;
       els.statusChip.textContent = cfg.statusLabel;
+      els.phoneStatusChip.textContent = cfg.statusLabel;
       els.itemCount.textContent = `${items.length} item${items.length === 1 ? '' : 's'} shown`;
       els.tableActionBtn.textContent = cfg.actionLabel;
 
@@ -10999,7 +11324,7 @@
     });
 
     document.querySelectorAll('[data-view-link]').forEach(btn => {
-      btn.addEventListener('click', () => switchView(btn.dataset.viewLink));
+      btn.addEventListener('click', () => { switchView(btn.dataset.viewLink); closeHamburgerMenu(); });
     });
 
     els.tableActionBtn.addEventListener('click', handleTableAction);
@@ -11030,6 +11355,8 @@
     });
 
     applyTheme();
+    applyViewMode();
+    applyFiltersExpanded();
     renderApp();
   </script>
 </body>
